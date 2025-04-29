@@ -50,7 +50,7 @@
     "crypto-random-string": "^3.3.0",
     "deep-equal": "^2.0.5",
     "dot-object": "^2.1.4",
-    "formdata-node": "^2.4.0",
+    "formdata-node": "^6.0.3",
     "fs-extra": "^9.0.1",
     "geolite2-redist": "^1.0.7",
     "got": "^11.8.1",
