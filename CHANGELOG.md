@@ -1,988 +1,845 @@
-# APITable CHANGELOG
+## v4.0.9 (2021-03-15)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.9) · [💻 Compare](https://github.com/staart/api/compare/v4.0.8...v4.0.9) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.9) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.9.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.9.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`6982a103`](https://github.com/staart/api/commit/6982a103)  Bump @types/node from 14.14.30 to 14.14.32
+
+## v4.0.8 (2021-03-01)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.8) · [💻 Compare](https://github.com/staart/api/compare/v4.0.7...v4.0.8) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.8) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.8.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.8.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`e60fd38e`](https://github.com/staart/api/commit/e60fd38e)  Bump @nestjs/core from 7.6.11 to 7.6.13
+- [`2ce3004a`](https://github.com/staart/api/commit/2ce3004a)  Bump aws-sdk from 2.846.0 to 2.849.0
+- [`8c411507`](https://github.com/staart/api/commit/8c411507)  Bump actions/setup-node from v2.1.4 to v2.1.5
+- [`dbb3b74c`](https://github.com/staart/api/commit/dbb3b74c)  Bump p-retry from 4.3.0 to 4.4.0
+- [`f64a5110`](https://github.com/staart/api/commit/f64a5110)  Bump @nestjs/cli from 7.5.4 to 7.5.5
+- [`bcae7edd`](https://github.com/staart/api/commit/bcae7edd)  Bump @typescript-eslint/parser from 4.15.0 to 4.15.2
+- [`691fd32f`](https://github.com/staart/api/commit/691fd32f)  Bump aws-sdk from 2.849.0 to 2.850.0
+
+## v4.0.7 (2021-02-22)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.7) · [💻 Compare](https://github.com/staart/api/compare/v4.0.6...v4.0.7) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.7) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.7.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.7.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`ae120229`](https://github.com/staart/api/commit/ae120229)  Bump @typescript-eslint/eslint-plugin from 4.14.2 to 4.15.0
+- [`866477fa`](https://github.com/staart/api/commit/866477fa)  Bump vsoch/pull-request-action from 1.0.13 to 1.0.14
+- [`6611b210`](https://github.com/staart/api/commit/6611b210)  Bump pascalgn/automerge-action from v0.13.0 to v0.13.1
+- [`5e9246cb`](https://github.com/staart/api/commit/5e9246cb)  Bump @types/puppeteer from 5.4.2 to 5.4.3
+- [`11795072`](https://github.com/staart/api/commit/11795072)  Bump @types/node from 14.14.25 to 14.14.28
+- [`fd3d507d`](https://github.com/staart/api/commit/fd3d507d)  Bump @octokit/rest from 18.1.0 to 18.1.1
+- [`b04fc4ec`](https://github.com/staart/api/commit/b04fc4ec)  Bump typescript from 4.1.3 to 4.1.5
+- [`f3455510`](https://github.com/staart/api/commit/f3455510)  Bump vsoch/pull-request-action from 1.0.14 to 1.0.15
+- [`0330ddd0`](https://github.com/staart/api/commit/0330ddd0)  Bump @nestjs/swagger from 4.7.12 to 4.7.13
+- [`370a2194`](https://github.com/staart/api/commit/370a2194)  Bump @nestjs/testing from 7.6.11 to 7.6.12
+- [`d3346c2a`](https://github.com/staart/api/commit/d3346c2a)  Bump @elastic/elasticsearch from 7.10.0 to 7.11.0
+- [`04d3337d`](https://github.com/staart/api/commit/04d3337d)  Bump ua-parser-js from 0.7.23 to 0.7.24
+- [`c0b527de`](https://github.com/staart/api/commit/c0b527de)  Bump aws-sdk from 2.834.0 to 2.845.0
+- [`a4418322`](https://github.com/staart/api/commit/a4418322)  Bump @nestjs/platform-express from 7.6.11 to 7.6.12
+- [`48172884`](https://github.com/staart/api/commit/48172884)  Bump aws-sdk from 2.845.0 to 2.846.0
+- [`087fc2af`](https://github.com/staart/api/commit/087fc2af)  Bump crypto-random-string from 3.3.0 to 3.3.1
+- [`fa66722d`](https://github.com/staart/api/commit/fa66722d)  Bump @types/fs-extra from 9.0.6 to 9.0.7
+- [`7567b09c`](https://github.com/staart/api/commit/7567b09c)  Bump @types/cheerio from 0.22.23 to 0.22.24
+- [`7e95a6ab`](https://github.com/staart/api/commit/7e95a6ab)  Bump @types/node from 14.14.28 to 14.14.30
+- [`2a6f4ea0`](https://github.com/staart/api/commit/2a6f4ea0)  Bump twilio from 3.55.1 to 3.56.0
+- [`a014d424`](https://github.com/staart/api/commit/a014d424)  Bump nunjucks from 3.2.2 to 3.2.3
+- [`7218f2ff`](https://github.com/staart/api/commit/7218f2ff)  Bump stripe from 8.135.0 to 8.137.0
+- [`18d64b74`](https://github.com/staart/api/commit/18d64b74)  Bump nodemailer from 6.4.17 to 6.4.18
+- [`f5009cb7`](https://github.com/staart/api/commit/f5009cb7)  Bump @octokit/rest from 18.1.1 to 18.2.0
+- [`39d546b0`](https://github.com/staart/api/commit/39d546b0)  Bump eslint from 7.19.0 to 7.20.0
+
+## v4.0.6 (2021-02-15)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.6) · [💻 Compare](https://github.com/staart/api/compare/v4.0.5...v4.0.6) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.6) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.6.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.6.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`1a7cad3d`](https://github.com/staart/api/commit/1a7cad3d)  Bump stripe from 8.132.0 to 8.134.0
+- [`be45b563`](https://github.com/staart/api/commit/be45b563)  Bump @types/node from 14.14.22 to 14.14.25
+- [`74fe75ab`](https://github.com/staart/api/commit/74fe75ab)  Bump @nestjs/core from 7.6.8 to 7.6.11
+- [`ae3a30c3`](https://github.com/staart/api/commit/ae3a30c3)  Bump @types/nunjucks from 3.1.3 to 3.1.4
+- [`ab248292`](https://github.com/staart/api/commit/ab248292)  Bump @sentry/node from 6.0.4 to 6.1.0
+- [`e84a503c`](https://github.com/staart/api/commit/e84a503c)  Bump stripe from 8.134.0 to 8.135.0
+- [`5e6ac37e`](https://github.com/staart/api/commit/5e6ac37e)  Bump ts-loader from 8.0.14 to 8.0.16
+- [`479707c4`](https://github.com/staart/api/commit/479707c4)  Bump @typescript-eslint/parser from 4.14.2 to 4.15.0
+
+## v4.0.5 (2021-02-08)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.5) · [💻 Compare](https://github.com/staart/api/compare/v4.0.4...v4.0.5) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.5) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.5.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.5.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`e7ab1d35`](https://github.com/staart/api/commit/e7ab1d35)  Bump @sentry/node from 6.0.2 to 6.0.3
+- [`e59eea6a`](https://github.com/staart/api/commit/e59eea6a)  Bump cloudinary from 1.23.0 to 1.24.0
+- [`6d3a3fd5`](https://github.com/staart/api/commit/6d3a3fd5)  Bump eslint from 7.18.0 to 7.19.0
+- [`e35e5c18`](https://github.com/staart/api/commit/e35e5c18)  Bump ts-jest from 26.4.4 to 26.5.0
+- [`0cb227e4`](https://github.com/staart/api/commit/0cb227e4)  Bump @octokit/rest from 18.0.14 to 18.0.15
+- [`a55f5155`](https://github.com/staart/api/commit/a55f5155)  Bump @nestjs/testing from 7.6.7 to 7.6.8
+- [`a4853571`](https://github.com/staart/api/commit/a4853571)  Bump @sentry/node from 6.0.3 to 6.0.4
+- [`937d45a5`](https://github.com/staart/api/commit/937d45a5)  Bump @nestjs/core from 7.6.7 to 7.6.8
+- [`c70193f3`](https://github.com/staart/api/commit/c70193f3)  Bump @typescript-eslint/parser from 4.14.1 to 4.14.2
+- [`390c9eb7`](https://github.com/staart/api/commit/390c9eb7)  Bump @nestjs/platform-express from 7.6.7 to 7.6.8
+- [`954548c3`](https://github.com/staart/api/commit/954548c3)  Bump aws-sdk from 2.833.0 to 2.834.0
+- [`342eb12b`](https://github.com/staart/api/commit/342eb12b)  Bump @nestjs/common from 7.6.7 to 7.6.8
+- [`3d34dc02`](https://github.com/staart/api/commit/3d34dc02)  Bump @nestjs/common from 7.6.8 to 7.6.11
+- [`7382ade4`](https://github.com/staart/api/commit/7382ade4)  Bump @nestjs/testing from 7.6.8 to 7.6.11
+- [`22a64eaa`](https://github.com/staart/api/commit/22a64eaa)  Bump @nestjs/platform-express from 7.6.8 to 7.6.11
+- [`9facb61d`](https://github.com/staart/api/commit/9facb61d)  Bump @typescript-eslint/eslint-plugin from 4.14.1 to 4.14.2
+- [`405b1895`](https://github.com/staart/api/commit/405b1895)  Bump @octokit/rest from 18.0.15 to 18.1.0
+- [`e9641a7c`](https://github.com/staart/api/commit/e9641a7c)  Bump @nestjs/config from 0.6.2 to 0.6.3
+
+## v4.0.4 (2021-02-01)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.4) · [💻 Compare](https://github.com/staart/api/compare/v4.0.3...v4.0.4) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.4) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.4.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.4.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`c039311d`](https://github.com/staart/api/commit/c039311d)  Bump @nestjs/config from 0.6.1 to 0.6.2
+- [`810f9e0b`](https://github.com/staart/api/commit/810f9e0b)  Bump aws-sdk from 2.830.0 to 2.831.0
+- [`aeb037c9`](https://github.com/staart/api/commit/aeb037c9)  Bump aws-elasticsearch-connector from 9.0.1 to 9.0.3
+- [`d281dc80`](https://github.com/staart/api/commit/d281dc80)  Bump @nestjs/schedule from 0.4.1 to 0.4.2
+- [`470ad4d6`](https://github.com/staart/api/commit/470ad4d6)  Bump supertest from 6.1.1 to 6.1.2
+- [`b4a0dc00`](https://github.com/staart/api/commit/b4a0dc00)  Bump p-retry from 4.2.0 to 4.3.0
+- [`7d77fdcb`](https://github.com/staart/api/commit/7d77fdcb)  Bump @nestjs/schematics from 7.2.6 to 7.2.7
+- [`7e265f6d`](https://github.com/staart/api/commit/7e265f6d)  Bump @octokit/rest from 18.0.13 to 18.0.14
+- [`4bc1ea47`](https://github.com/staart/api/commit/4bc1ea47)  Bump @sentry/node from 6.0.1 to 6.0.2
+- [`c2522e92`](https://github.com/staart/api/commit/c2522e92)  Bump supertest from 6.1.2 to 6.1.3
+- [`aa8cdb72`](https://github.com/staart/api/commit/aa8cdb72)  Bump @typescript-eslint/parser from 4.14.0 to 4.14.1
+- [`35553763`](https://github.com/staart/api/commit/35553763)  Bump @typescript-eslint/eslint-plugin from 4.14.0 to 4.14.1
+- [`e9cfda57`](https://github.com/staart/api/commit/e9cfda57)  Bump @nestjs/testing from 7.6.5 to 7.6.6
+- [`9c43988d`](https://github.com/staart/api/commit/9c43988d)  Bump @nestjs/common from 7.6.5 to 7.6.6
+- [`132933f8`](https://github.com/staart/api/commit/132933f8)  Bump @nestjs/core from 7.6.5 to 7.6.6
+- [`86d6d090`](https://github.com/staart/api/commit/86d6d090)  Bump @nestjs/core from 7.6.6 to 7.6.7
+- [`87d17644`](https://github.com/staart/api/commit/87d17644)  Bump twilio from 3.55.0 to 3.55.1
+- [`1a6bf548`](https://github.com/staart/api/commit/1a6bf548)  Bump @nestjs/platform-express from 7.6.5 to 7.6.7
+- [`b158071e`](https://github.com/staart/api/commit/b158071e)  Bump @nestjs/common from 7.6.6 to 7.6.7
+- [`838e17e9`](https://github.com/staart/api/commit/838e17e9)  Bump aws-sdk from 2.831.0 to 2.832.0
+- [`70f116ac`](https://github.com/staart/api/commit/70f116ac)  Bump @nestjs/testing from 7.6.6 to 7.6.7
+- [`3cdb9253`](https://github.com/staart/api/commit/3cdb9253)  Bump aws-sdk from 2.832.0 to 2.833.0
+
+## v4.0.3 (2021-01-25)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.3) · [💻 Compare](https://github.com/staart/api/compare/v4.0.2...v4.0.3) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.3) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.3.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.3.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`bd0baca6`](https://github.com/staart/api/commit/bd0baca6)  Bump eslint-config-prettier from 7.1.0 to 7.2.0
+- [`92b705ad`](https://github.com/staart/api/commit/92b705ad)  Bump @typescript-eslint/parser from 4.13.0 to 4.14.0
+- [`06043340`](https://github.com/staart/api/commit/06043340)  Bump helmet from 4.4.0 to 4.4.1
+- [`5463fd71`](https://github.com/staart/api/commit/5463fd71)  Bump @typescript-eslint/eslint-plugin from 4.13.0 to 4.14.0
+- [`8df7a8c2`](https://github.com/staart/api/commit/8df7a8c2)  Bump aws-sdk from 2.828.0 to 2.829.0
+- [`c2022ccd`](https://github.com/staart/api/commit/c2022ccd)  Bump @sentry/node from 5.30.0 to 6.0.0
+- [`f5a380f8`](https://github.com/staart/api/commit/f5a380f8)  Bump @types/node from 14.14.21 to 14.14.22
+- [`fdf181df`](https://github.com/staart/api/commit/fdf181df)  Bump fs-extra from 9.0.1 to 9.1.0
+- [`1e9cfec9`](https://github.com/staart/api/commit/1e9cfec9)  Bump @prisma/cli from 2.14.0 to 2.15.0
+- [`b5ef46c5`](https://github.com/staart/api/commit/b5ef46c5)  Bump @googlemaps/google-maps-services-js
+- [`616bfb48`](https://github.com/staart/api/commit/616bfb48)  Bump @octokit/rest from 18.0.12 to 18.0.13
+- [`6669588a`](https://github.com/staart/api/commit/6669588a)  Bump @sentry/node from 6.0.0 to 6.0.1
+- [`8987b207`](https://github.com/staart/api/commit/8987b207)  Bump aws-sdk from 2.829.0 to 2.830.0
+- [`c8dd8a62`](https://github.com/staart/api/commit/c8dd8a62)  Bump stripe from 8.131.1 to 8.132.0
+- [`e8bdc1e1`](https://github.com/staart/api/commit/e8bdc1e1)  Bump @nestjs/swagger from 4.7.11 to 4.7.12
+
+## v4.0.2 (2021-01-18)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.2) · [💻 Compare](https://github.com/staart/api/compare/v4.0.1...v4.0.2) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.2) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.2.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.2.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`12511426`](https://github.com/staart/api/commit/12511426)  Bump @types/express from 4.17.9 to 4.17.10
+- [`dea87dc5`](https://github.com/staart/api/commit/dea87dc5)  Bump @typescript-eslint/eslint-plugin from 4.12.0 to 4.13.0
+- [`3e244c63`](https://github.com/staart/api/commit/3e244c63)  Bump aws-sdk from 2.824.0 to 2.825.0
+- [`b2c9f3c4`](https://github.com/staart/api/commit/b2c9f3c4)  Bump @typescript-eslint/parser from 4.12.0 to 4.13.0
+- [`27c2a43d`](https://github.com/staart/api/commit/27c2a43d)  Bump aws-sdk from 2.825.0 to 2.826.0
+- [`df090c76`](https://github.com/staart/api/commit/df090c76)  Bump @nestjs/swagger from 4.7.9 to 4.7.10
+- [`b0227bd9`](https://github.com/staart/api/commit/b0227bd9)  Bump @types/express from 4.17.10 to 4.17.11
+- [`d0ad37ca`](https://github.com/staart/api/commit/d0ad37ca)  Bump @slack/web-api from 5.15.0 to 6.0.0
+- [`bf60e861`](https://github.com/staart/api/commit/bf60e861)  Bump aws-sdk from 2.826.0 to 2.827.0
+- [`bd83ac32`](https://github.com/staart/api/commit/bd83ac32)  Bump twilio from 3.54.2 to 3.55.0
+- [`e4688514`](https://github.com/staart/api/commit/e4688514)  Bump @sentry/node from 5.29.2 to 5.30.0
+- [`5e37e70b`](https://github.com/staart/api/commit/5e37e70b)  Bump @types/node from 14.14.20 to 14.14.21
+- [`3579cbb0`](https://github.com/staart/api/commit/3579cbb0)  Bump @googlemaps/google-maps-services-js
+- [`f3ecfad1`](https://github.com/staart/api/commit/f3ecfad1)  Bump stripe from 8.130.0 to 8.131.0
+- [`b0c7d6f7`](https://github.com/staart/api/commit/b0c7d6f7)  Bump aws-sdk from 2.827.0 to 2.828.0
+- [`172f11b0`](https://github.com/staart/api/commit/172f11b0)  Bump class-transformer from 0.3.1 to 0.3.2
+- [`96abb0e2`](https://github.com/staart/api/commit/96abb0e2)  Bump supertest from 6.0.1 to 6.1.1
+- [`eb1cfb79`](https://github.com/staart/api/commit/eb1cfb79)  Bump stripe from 8.131.0 to 8.131.1
+- [`c5012a6f`](https://github.com/staart/api/commit/c5012a6f)  Bump helmet from 4.3.1 to 4.4.0
+- [`0e8c844d`](https://github.com/staart/api/commit/0e8c844d)  Bump @nestjs/swagger from 4.7.10 to 4.7.11
+- [`ee45f005`](https://github.com/staart/api/commit/ee45f005)  Bump eslint from 7.17.0 to 7.18.0
+
+## v4.0.1 (2021-01-11)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.1) · [💻 Compare](https://github.com/staart/api/compare/v4.0.0...v4.0.1) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.1) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.1.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.1.tar.gz))
+
+### ♻️ Updates
+
+- [`9b3629c7`](https://github.com/staart/api/commit/9b3629c7)  Add create group to scopes
+- [`5d660449`](https://github.com/staart/api/commit/5d660449)  Update scope for writing membership
+
+### ⬆️ Dependency updates
+
+- [`35aecbdc`](https://github.com/staart/api/commit/35aecbdc)  Bump rate-limiter-flexible from 2.1.16 to 2.2.1
+
+## v4.0.0 (2021-01-09)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v4.0.0) · [💻 Compare](https://github.com/staart/api/compare/v3.6.17...v4.0.0) · [🔖 Tag](https://github.com/staart/api/tree/v4.0.0) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v4.0.0.zip) · [tar.gz](https://github.com/staart/api/archive/v4.0.0.tar.gz))
+
+### ✨ New features
+
+- [`ec40a981`](https://github.com/staart/api/commit/ec40a981)  Add audit logs to users/groups
+- [`ede77f40`](https://github.com/staart/api/commit/ede77f40)  Add metrics module (#1142)
+(Issues: [`#1142`](https://github.com/staart/api/issues/1142))- [`533f690a`](https://github.com/staart/api/commit/533f690a)  Update metrics, verify domains, delete audit logs in tasks
+- [`a96f8245`](https://github.com/staart/api/commit/a96f8245)  Add profile picture, deleting to user
+- [`93d9d78b`](https://github.com/staart/api/commit/93d9d78b)  Add meta module
+
+### ♻️ Updates
+
+- [`10f6cc8f`](https://github.com/staart/api/commit/10f6cc8f)  Update configuration
+- [`0ebf7425`](https://github.com/staart/api/commit/0ebf7425)  Update API keys module, logger
+- [`10e7ab82`](https://github.com/staart/api/commit/10e7ab82)  Add origin, session ID, role to auth
+- [`385c93c9`](https://github.com/staart/api/commit/385c93c9)  Update domain module with methods
+- [`670e7b31`](https://github.com/staart/api/commit/670e7b31)  Update email module with imports
+- [`7398bc86`](https://github.com/staart/api/commit/7398bc86)  Update group module
+- [`fd347eeb`](https://github.com/staart/api/commit/fd347eeb)  Update memberships module
+- [`0cbe65c8`](https://github.com/staart/api/commit/0cbe65c8)  Update MFA module with returns
+- [`62ac6266`](https://github.com/staart/api/commit/62ac6266)  Use config in Stripe module, add comments
+- [`66e63e5e`](https://github.com/staart/api/commit/66e63e5e)  Remove playwrite, use puppeteer
+- [`0d02e650`](https://github.com/staart/api/commit/0d02e650)  Update approved subnet, session, webhook modules
+- [`54deaf57`](https://github.com/staart/api/commit/54deaf57)  Update services
+- [`4d48402b`](https://github.com/staart/api/commit/4d48402b)  Add config for S3 profile picture
+- [`0e63ccd7`](https://github.com/staart/api/commit/0e63ccd7)  Update app module with metrics, puppeteer, exception
+- [`b3418d0f`](https://github.com/staart/api/commit/b3418d0f)  Make gravatar optional (fixed #1114)
+(Issues: [`#1114`](https://github.com/staart/api/issues/1114))
+
+### ⬆️ Dependency updates
+
+- [`9c609b19`](https://github.com/staart/api/commit/9c609b19)  Bump @prisma/cli from 2.13.0 to 2.14.0
+- [`6d2db524`](https://github.com/staart/api/commit/6d2db524)  Bump aws-sdk from 2.815.0 to 2.822.0
+- [`78c68454`](https://github.com/staart/api/commit/78c68454)  Bump helmet from 4.2.0 to 4.3.1
+- [`7f2c0c20`](https://github.com/staart/api/commit/7f2c0c20)  Bump @typescript-eslint/eslint-plugin from 4.11.1 to 4.12.0
+- [`7c20f043`](https://github.com/staart/api/commit/7c20f043)  Bump @nestjs/swagger from 4.7.6 to 4.7.9
+- [`12bcb6f3`](https://github.com/staart/api/commit/12bcb6f3)  Bump @nestjs/common from 7.6.4 to 7.6.5
+- [`f05888c3`](https://github.com/staart/api/commit/f05888c3)  Bump eslint from 7.16.0 to 7.17.0
+- [`212099c2`](https://github.com/staart/api/commit/212099c2)  Bump @typescript-eslint/parser from 4.10.0 to 4.12.0
+
+### 💥 Breaking changes
+
+- [`4f70e60c`](https://github.com/staart/api/commit/4f70e60c)  Update where pipe with filters
+
+## v3.6.17 (2021-01-04)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.17) · [💻 Compare](https://github.com/staart/api/compare/v3.6.16...v3.6.17) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.17) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.17.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.17.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`99ff80a0`](https://github.com/staart/api/commit/99ff80a0)  Bump akhileshns/heroku-deploy from v3.7.8 to v3.8.8
+- [`78c5160c`](https://github.com/staart/api/commit/78c5160c)  Bump @nestjs/core from 7.6.3 to 7.6.5
+- [`ac0e5f65`](https://github.com/staart/api/commit/ac0e5f65)  Bump @typescript-eslint/eslint-plugin from 4.11.0 to 4.11.1
+
+## v3.6.16 (2020-12-28)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.16) · [💻 Compare](https://github.com/staart/api/compare/v3.6.15...v3.6.16) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.16) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.16.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.16.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`2e06d1f6`](https://github.com/staart/api/commit/2e06d1f6)  Bump @nestjs/platform-express from 7.5.5 to 7.6.3
+- [`94f92f7a`](https://github.com/staart/api/commit/94f92f7a)  Bump aws-sdk from 2.807.0 to 2.814.0
+- [`d43ceecd`](https://github.com/staart/api/commit/d43ceecd)  Bump vsoch/pull-request-action from 1.0.12 to 1.0.13
+- [`7f2beed6`](https://github.com/staart/api/commit/7f2beed6)  Bump aws-sdk from 2.814.0 to 2.815.0
+- [`43329a70`](https://github.com/staart/api/commit/43329a70)  Bump typescript from 4.1.2 to 4.1.3
+- [`5a1c3a74`](https://github.com/staart/api/commit/5a1c3a74)  Bump pascalgn/automerge-action from v0.12.0 to v0.13.0
+- [`ea54504a`](https://github.com/staart/api/commit/ea54504a)  Bump node-notifier from 8.0.0 to 8.0.1
+- [`a1c1e818`](https://github.com/staart/api/commit/a1c1e818)  Bump swagger-ui-express from 4.1.5 to 4.1.6
+- [`030388b1`](https://github.com/staart/api/commit/030388b1)  Bump eslint from 7.15.0 to 7.16.0
+- [`fe2fe64e`](https://github.com/staart/api/commit/fe2fe64e)  Bump @nestjs/common from 7.6.1 to 7.6.4
+- [`22a80d4e`](https://github.com/staart/api/commit/22a80d4e)  Bump playwright from 1.7.0 to 1.7.1
+- [`32f67c87`](https://github.com/staart/api/commit/32f67c87)  Bump @types/node from 14.14.10 to 14.14.16
+- [`93b8203c`](https://github.com/staart/api/commit/93b8203c)  Bump @typescript-eslint/eslint-plugin from 4.10.0 to 4.11.0
+
+## v3.6.15 (2020-12-21)
+
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.15) · [💻 Compare](https://github.com/staart/api/compare/v3.6.14...v3.6.15) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.15) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.15.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.15.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`1d54b8a1`](https://github.com/staart/api/commit/1d54b8a1)  Bump nodemailer from 6.4.16 to 6.4.17
+- [`3df56fa8`](https://github.com/staart/api/commit/3df56fa8)  Bump firebase-admin from 9.4.1 to 9.4.2
+- [`ff674348`](https://github.com/staart/api/commit/ff674348)  Bump @nestjs/swagger from 4.7.5 to 4.7.6
+- [`b12c6e33`](https://github.com/staart/api/commit/b12c6e33)  Bump got from 11.8.0 to 11.8.1
+- [`26c6347f`](https://github.com/staart/api/commit/26c6347f)  Bump @typescript-eslint/parser from 4.9.1 to 4.10.0
+- [`596bf7ce`](https://github.com/staart/api/commit/596bf7ce)  Bump @nestjs/common from 7.5.5 to 7.6.1
+- [`24bf0a77`](https://github.com/staart/api/commit/24bf0a77)  Bump @nestjs/core from 7.5.5 to 7.6.1
+- [`ea1e0290`](https://github.com/staart/api/commit/ea1e0290)  Bump @prisma/client from 2.12.1 to 2.13.0
+- [`bbf894d5`](https://github.com/staart/api/commit/bbf894d5)  Bump playwright from 1.6.2 to 1.7.0
+- [`e0502541`](https://github.com/staart/api/commit/e0502541)  Bump @typescript-eslint/eslint-plugin from 4.9.1 to 4.10.0
+- [`ec890edf`](https://github.com/staart/api/commit/ec890edf)  Bump @nestjs/cli from 7.5.3 to 7.5.4
+- [`32a57284`](https://github.com/staart/api/commit/32a57284)  Bump ts-loader from 8.0.11 to 8.0.12
+- [`17c4c5f2`](https://github.com/staart/api/commit/17c4c5f2)  Bump actions/setup-node from v2.1.3 to v2.1.4
+- [`2296a22a`](https://github.com/staart/api/commit/2296a22a)  Bump @nestjs/testing from 7.5.5 to 7.6.3
+- [`498512a5`](https://github.com/staart/api/commit/498512a5)  Bump rate-limiter-flexible from 2.1.13 to 2.1.14
+- [`4f9f56d6`](https://github.com/staart/api/commit/4f9f56d6)  Bump @nestjs/core from 7.6.1 to 7.6.3
+- [`7444e976`](https://github.com/staart/api/commit/7444e976)  Bump stripe from 8.127.0 to 8.129.0
 
-## [v1.10.0-beta.3](https://github.com/apitable/apitable/releases/tag/v1.10.0-beta.3) (2024-05-06)
+## v3.6.14 (2020-12-14)
 
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.14) · [💻 Compare](https://github.com/staart/api/compare/v3.6.13...v3.6.14) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.14) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.14.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.14.tar.gz))
 
-### What's more
+### ⬆️ Dependency updates
 
-* sync: hosted cloud ([#1734](https://github.com/apitable/apitable/pull/1734)) @zoe-icu 
-* refactor: add changelog ([#1721](https://github.com/apitable/apitable/pull/1721)) @zoe-icu 
-* chore: upgrade mysql2 ([#11084](https://github.com/apitable/apitable/pull/1734/commits/d299e369b8047f577e915adfe3b627317af3028c)) @zoe-icu 
-## [v1.10.0-beta.2](https://github.com/apitable/apitable/releases/tag/v1.10.0-beta.2) (2024-04-17)
+- [`8743ea89`](https://github.com/staart/api/commit/8743ea89)  Bump @nestjs/schematics from 7.2.2 to 7.2.5
+- [`104de030`](https://github.com/staart/api/commit/104de030)  Bump @types/jest from 26.0.18 to 26.0.19
+- [`8c28425c`](https://github.com/staart/api/commit/8c28425c)  Bump actions/setup-node from v2.1.2 to v2.1.3
 
+## v3.6.13 (2020-12-10)
 
-### Bug fixes
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.13) · [💻 Compare](https://github.com/staart/api/compare/v3.6.12...v3.6.13) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.13) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.13.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.13.tar.gz))
 
-* fix: delete automation trigger ([#1657](https://github.com/apitable/apitable/pull/1657)) @zoe-icu 
+### 🐛 Bug fixes
 
-### What's more
+- [`da8bd32c`](https://github.com/staart/api/commit/da8bd32c)  Add [*] scope to admins
 
-* sync: hosted cloud ([#1720](https://github.com/apitable/apitable/pull/1720)) @zoe-icu 
-## [v1.10.0-beta](https://github.com/apitable/apitable/releases/tag/v1.10.0-beta) (2024-03-11)
+### ⬆️ Dependency updates
 
+- [`60478842`](https://github.com/staart/api/commit/60478842)  Bump eslint from 7.14.0 to 7.15.0
+- [`c4c5d483`](https://github.com/staart/api/commit/c4c5d483)  Bump aws-sdk from 2.803.0 to 2.804.0
+- [`5c04197c`](https://github.com/staart/api/commit/5c04197c)  Bump hibp from 9.0.0 to 9.0.3
+- [`39b7601e`](https://github.com/staart/api/commit/39b7601e)  Bump ts-node from 9.1.0 to 9.1.1
+- [`cc025c5b`](https://github.com/staart/api/commit/cc025c5b)  Bump @typescript-eslint/eslint-plugin from 4.9.0 to 4.9.1
+- [`00d9497f`](https://github.com/staart/api/commit/00d9497f)  Bump aws-sdk from 2.804.0 to 2.805.0
+- [`8b7398e6`](https://github.com/staart/api/commit/8b7398e6)  Bump @typescript-eslint/parser from 4.9.0 to 4.9.1
+- [`68a7332e`](https://github.com/staart/api/commit/68a7332e)  Bump @types/jest from 26.0.16 to 26.0.18
+- [`d7486ed7`](https://github.com/staart/api/commit/d7486ed7)  Bump @octokit/rest from 18.0.11 to 18.0.12
+- [`87aebdbc`](https://github.com/staart/api/commit/87aebdbc)  Bump uuid from 8.3.1 to 8.3.2
+- [`7e59c2aa`](https://github.com/staart/api/commit/7e59c2aa)  Bump @prisma/cli from 2.12.1 to 2.13.0
+- [`d9e99280`](https://github.com/staart/api/commit/d9e99280)  Bump aws-sdk from 2.805.0 to 2.807.0
+- [`c53701b9`](https://github.com/staart/api/commit/c53701b9)  Bump @types/ua-parser-js from 0.7.33 to 0.7.35
+- [`7bfdc870`](https://github.com/staart/api/commit/7bfdc870)  Bump akhileshns/heroku-deploy from v3.6.8 to v3.7.8
 
-### What's more
+## v3.6.12 (2020-12-07)
 
-* sync: hosted cloud ([#1652](https://github.com/apitable/apitable/pull/1652)) @ChambersChan 
-## [v1.9.0-beta](https://github.com/apitable/apitable/releases/tag/v1.9.0-beta) (2024-01-29)
+[📝 Release notes](https://github.com/staart/api/releases/tag/v3.6.12) · [💻 Compare](https://github.com/staart/api/compare/v3.6.11...v3.6.12) · [🔖 Tag](https://github.com/staart/api/tree/v3.6.12) · 🗄️ Archive ([zip](https://github.com/staart/api/archive/v3.6.12.zip) · [tar.gz](https://github.com/staart/api/archive/v3.6.12.tar.gz))
 
+### ⬆️ Dependency updates
 
-### Bug fixes
+- [`c33e0ad6`](https://github.com/staart/api/commit/c33e0ad6)  Bump aws-sdk from 2.800.0 to 2.802.0
+- [`b01e785d`](https://github.com/staart/api/commit/b01e785d)  Bump @octokit/rest from 18.0.9 to 18.0.10
+- [`7f543317`](https://github.com/staart/api/commit/7f543317)  Bump @types/jest from 26.0.15 to 26.0.16
+- [`4f8ea6ea`](https://github.com/staart/api/commit/4f8ea6ea)  Bump @koj/config from 1.2.9 to 1.2.11
+- [`d4c35105`](https://github.com/staart/api/commit/d4c35105)  Bump @octokit/rest from 18.0.10 to 18.0.11
+- [`dd082b6c`](https://github.com/staart/api/commit/dd082b6c)  Bump stripe from 8.126.0 to 8.127.0
+- [`dd452b40`](https://github.com/staart/api/commit/dd452b40)  Bump aws-sdk from 2.802.0 to 2.803.0
+- [`4a571b67`](https://github.com/staart/api/commit/4a571b67)  Bump ts-node from 9.0.0 to 9.1.0
 
-* fix: usage warn func ([#1573](https://github.com/apitable/apitable/pull/1573)) @wangkailang 
+## [v3.6.11](https://github.com/staart/api/compare/v3.6.10...v3.6.11) (2020-12-02)
 
-### What's more
+### ♻️ Updates
 
-* sync: hosted cloud ([#1571](https://github.com/apitable/apitable/pull/1571)) @chalme 
-* chore: changelog update ([#1574](https://github.com/apitable/apitable/pull/1574)) @chalme 
-* Sync/hosted ([#1581](https://github.com/apitable/apitable/pull/1581)) @jeremyyin2012 
-* chore: changelog update ([#1583](https://github.com/apitable/apitable/pull/1583)) @jeremyyin2012 
-* sync: hosted cloud ([#1592](https://github.com/apitable/apitable/pull/1592)) @JoverZhang 
-## [v1.8.0-beta.3](https://github.com/apitable/apitable/releases/tag/v1.8.0-beta.3) (2024-01-23)
+- [`f8eb9cab`](https://github.com/staart/api/commit/f8eb9cab)  Use frontendUrl from meta config
+- [`d2ea77b0`](https://github.com/staart/api/commit/d2ea77b0)  Use Configuration interface in service
 
+### ⬆️ Dependency updates
 
-### What's more
+- [`bb2181f1`](https://github.com/staart/api/commit/bb2181f1)  Bump aws-sdk from 2.799.0 to 2.800.0
+- [`6b07b4c4`](https://github.com/staart/api/commit/6b07b4c4)  Bump @typescript-eslint/eslint-plugin from 4.8.2 to 4.9.0
+- [`7db658c6`](https://github.com/staart/api/commit/7db658c6)  Bump @typescript-eslint/parser from 4.8.2 to 4.9.0
 
-* Sync/hosted ([#1581](https://github.com/apitable/apitable/pull/1581)) @jeremyyin2012 
-## [v1.8.0-beta.2](https://github.com/apitable/apitable/releases/tag/v1.8.0-beta.2) (2024-01-15)
+## [v3.6.10](https://github.com/staart/api/compare/v3.6.9...v3.6.10) (2020-11-30)
 
+### ♻️ Updates
 
-### Bug fixes
+- [`373f40d1`](https://github.com/staart/api/commit/373f40d1)  Use acct:URL for access token
+- [`eb98a1fb`](https://github.com/staart/api/commit/eb98a1fb)  Listen on env PORT
 
-* fix: usage warn func ([#1573](https://github.com/apitable/apitable/pull/1573)) @wangkailang 
+### 🐛 Bug fixes
 
-### What's more
+- [`956bfb80`](https://github.com/staart/api/commit/956bfb80)  Remove extra # from UI colors
 
-* sync: hosted cloud ([#1571](https://github.com/apitable/apitable/pull/1571)) @chalme 
-## [v1.8.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.8.0-beta.1) (2024-01-08)
+### ⬆️ Dependency updates
 
+- [`5a37720b`](https://github.com/staart/api/commit/5a37720b)  Bump prettier from 2.2.0 to 2.2.1
 
-### What's more
+## [v3.6.9](https://github.com/staart/api/compare/v3.6.8...v3.6.9) (2020-11-30)
 
-* sync: hosted cloud ([#1561](https://github.com/apitable/apitable/pull/1561)) @robot518 
-## [v1.8.0-beta](https://github.com/apitable/apitable/releases/tag/v1.8.0-beta) (2024-01-02)
+### ⬆️ Dependency updates
 
-### Bug fixes
+- [`e06499e3`](https://github.com/staart/api/commit/e06499e3)  Bump @slack/web-api from 5.13.0 to 5.14.0
+- [`01949b33`](https://github.com/staart/api/commit/01949b33)  Bump @prisma/client from 2.12.0 to 2.12.1
+- [`364a477a`](https://github.com/staart/api/commit/364a477a)  Bump @prisma/cli from 2.12.0 to 2.12.1
 
-- fix: func undefined check ([#1542](https://github.com/apitable/apitable/pull/1542)) @wangkailang
-- fix: usage warn func check ([#1555](https://github.com/apitable/apitable/pull/1555)) @wangkailang
+## [v3.6.8](https://github.com/staart/api/compare/v3.6.7...v3.6.8) (2020-11-26)
 
-### What's more
+### 🐛 Bug fixes
 
-- refactor: use_responsive hook ([#1419](https://github.com/apitable/apitable/pull/1419)) @liaoliao666
-- sync: hosted cloud ([#1540](https://github.com/apitable/apitable/pull/1540)) @ChambersChan
-- docs: changelog for v1.7.0 ([#1544](https://github.com/apitable/apitable/pull/1544)) @ChambersChan
-- sync: hosted cloud ([#1553](https://github.com/apitable/apitable/pull/1553)) @zoe-icu
+- [`4c5c427e`](https://github.com/staart/api/commit/4c5c427e)  Ignore auth if user is not found
 
-## [v1.7.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.7.0-beta.1) (2023-12-25)
+## [v3.6.7](https://github.com/staart/api/compare/v3.6.6...v3.6.7) (2020-11-25)
 
-### Bug fixes
+### ♻️ Updates
 
-- fix: func undefined check ([#1542](https://github.com/apitable/apitable/pull/1542)) @wangkailang
+- [`5afc6d23`](https://github.com/staart/api/commit/5afc6d23)  Add Slack method to message channel
 
-### What's more
+## [v3.6.6](https://github.com/staart/api/compare/v3.6.5...v3.6.6) (2020-11-25)
 
-- refactor: use_responsive hook ([#1419](https://github.com/apitable/apitable/pull/1419)) @liaoliao666
-- sync: hosted cloud ([#1540](https://github.com/apitable/apitable/pull/1540)) @ChambersChan
+### 🐛 Bug fixes
 
-## [v1.7.0-beta](https://github.com/apitable/apitable/releases/tag/v1.7.0-beta) (2023-12-18)
+- [`553d08cd`](https://github.com/staart/api/commit/553d08cd)  Fix defaults for Twilio service
 
-### What's more
+### ⬆️ Dependency updates
 
-- docs: update readme.md ([#1523](https://github.com/apitable/apitable/pull/1523)) @ChambersChan
-- sync: hosted cloud ([#1528](https://github.com/apitable/apitable/pull/1528)) @jeremyyin2012
+- [`5eb74986`](https://github.com/staart/api/commit/5eb74986)  Bump stripe from 8.125.0 to 8.126.0
+- [`44136726`](https://github.com/staart/api/commit/44136726)  Bump @types/node from 14.14.9 to 14.14.10
+- [`919bf7da`](https://github.com/staart/api/commit/919bf7da)  Bump @nestjs/passport from 7.1.3 to 7.1.5
 
-## [v1.6.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.6.0-beta.1) (2023-12-11)
+## [v3.6.5](https://github.com/staart/api/compare/v3.6.4...v3.6.5) (2020-11-25)
 
-### Bug fixes
+### ♻️ Updates
 
-- fix: env IS_SELFHOST default true ([#1515](https://github.com/apitable/apitable/pull/1515)) @wangkailang
+- [`9ab66dfb`](https://github.com/staart/api/commit/9ab66dfb)  Use prisma code references
 
-### What's more
+### 🐛 Bug fixes
 
-- chore: tune gitpod dockerfile ([#1509](https://github.com/apitable/apitable/pull/1509)) @ChambersChan
-- sync: hosted cloud ([#1519](https://github.com/apitable/apitable/pull/1519)) @JoverZhang
+- [`d63790e1`](https://github.com/staart/api/commit/d63790e1)  Fix Prisma update changes
 
-## [v1.6.0-beta](https://github.com/apitable/apitable/releases/tag/v1.6.0-beta) (2023-12-04)
+### ⬆️ Dependency updates
 
-### Bug fixes
+- [`fd366850`](https://github.com/staart/api/commit/fd366850)  Update @prisma/client, @prisma/server to v2.12.0
 
-- fix: room-server start error ([#1505](https://github.com/apitable/apitable/pull/1505)) @chalme
-- fix: csrf filter ([#1506](https://github.com/apitable/apitable/pull/1506)) @ChambersChan
+## [v3.6.4](https://github.com/staart/api/compare/v3.6.3...v3.6.4) (2020-11-23)
 
-### What's more
+## [v3.6.3](https://github.com/staart/api/compare/v3.6.2...v3.6.3) (2020-11-18)
 
-- sync: hosted cloud ([#1503](https://github.com/apitable/apitable/pull/1503)) @chalme
+### ♻️ Updates
 
-## [v1.5.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.5.0-beta.1) (2023-11-27)
+- [`76181f1a`](https://github.com/staart/api/commit/76181f1a)  Add Stripe controllers to module
+- [`018837c4`](https://github.com/staart/api/commit/018837c4)  Add billing portal session link
+- [`dba69e18`](https://github.com/staart/api/commit/dba69e18)  Redirect to session home
+- [`aa64deef`](https://github.com/staart/api/commit/aa64deef)  Use GET method for billing portal
 
-### What's more
+### 🐛 Bug fixes
 
-- sync: hosted cloud ([#1481](https://github.com/apitable/apitable/pull/1481)) @shawndenggh
+- [`a8011fc1`](https://github.com/staart/api/commit/a8011fc1)  Make req.user optional
+- [`79ddd033`](https://github.com/staart/api/commit/79ddd033)  Use /billing/link URL for billing portal
 
-## [v1.5.0-beta](https://github.com/apitable/apitable/releases/tag/v1.5.0-beta) (2023-11-20)
+### ⬆️ Dependency updates
 
-### What's more
+- [`c2637fad`](https://github.com/staart/api/commit/c2637fad)  Update koj-co/template
 
-- sync: hosted cloud ([#1469](https://github.com/apitable/apitable/pull/1469)) @robot518
+## [v3.6.2](https://github.com/staart/api/compare/v3.6.1...v3.6.2) (2020-11-17)
 
-## [v1.4.0-beta.3](https://github.com/apitable/apitable/releases/tag/v1.4.0-beta.3) (2023-11-13)
+### ♻️ Updates
 
-### Features and enhancements
+- [`58971f05`](https://github.com/staart/api/commit/58971f05)  Use internal interceptor, decorator
+- [`c6ba4afd`](https://github.com/staart/api/commit/c6ba4afd)  Use custom rate limiter
 
-- feat: gen ce api client module ([#1445](https://github.com/apitable/apitable/pull/1445)) @ranglang
-- feat: change contactus url ([#1454](https://github.com/apitable/apitable/pull/1454)) @yo-ooiii
+## [v3.6.1](https://github.com/staart/api/compare/v3.6.0...v3.6.1) (2020-11-17)
 
-### Bug fixes
+### 🐛 Bug fixes
 
-- fix: workdoc with env ([#1463](https://github.com/apitable/apitable/pull/1463)) @wangkailang
+- [`d1e7c654`](https://github.com/staart/api/commit/d1e7c654)  Remove unauthorized scopes from API keys
 
-### What's more
+## [v3.6.0](https://github.com/staart/api/compare/v3.5.6...v3.6.0) (2020-11-16)
 
-- sync: hosted cloud ([#1460](https://github.com/apitable/apitable/pull/1460)) @ziqiangai
+### ✨ New features
 
-## [v1.4.0-beta.2](https://github.com/apitable/apitable/releases/tag/v1.4.0-beta.2) (2023-11-06)
+- [`666e37eb`](https://github.com/staart/api/commit/666e37eb)  Add endpoint for subgroups
 
-### What's more
+### ♻️ Updates
 
-- chore: fix all-in-one pnpm canvas path ([#1431](https://github.com/apitable/apitable/pull/1431)) @networkhermit
-- merge Release/1.4.0 fix back develop ([#1437](https://github.com/apitable/apitable/pull/1437)) @jeremyyin2012
-- sync: hosted cloud ([#1440](https://github.com/apitable/apitable/pull/1440)) @chalme
+- [`ef2dc724`](https://github.com/staart/api/commit/ef2dc724)  Get subgroup scopes on login
+- [`c5c54c45`](https://github.com/staart/api/commit/c5c54c45)  Add select/include pipe
+- [`2adfc21b`](https://github.com/staart/api/commit/2adfc21b)  Use create group helper in membership service
+- [`4dd62efc`](https://github.com/staart/api/commit/4dd62efc)  Remove attributes from DTO
+- [`9a9cca5d`](https://github.com/staart/api/commit/9a9cca5d)  Use /auth/link for token links
+- [`0c2b15b3`](https://github.com/staart/api/commit/0c2b15b3)  Move merging accounts to auth.service
+- [`70c5328b`](https://github.com/staart/api/commit/70c5328b)  Send token response on email verification
 
-## [v1.4.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.4.0-beta.1) (2023-10-31)
+### 🐛 Bug fixes
 
-### What's more
+- [`69a88ce7`](https://github.com/staart/api/commit/69a88ce7)  Return created membership with group
+- [`3f9bbaef`](https://github.com/staart/api/commit/3f9bbaef)  Use email ID to verify, not user ID
+- [`ed3a2103`](https://github.com/staart/api/commit/ed3a2103)  Combine specific keys of users, fix response
 
-- fix: ai components build by ([#1430](https://github.com/apitable/apitable/pull/1430)) @jeremyyin2012
+## [v3.5.6](https://github.com/staart/api/compare/v3.5.5...v3.5.6) (2020-11-15)
 
-## [v1.4.0-beta](https://github.com/apitable/apitable/releases/tag/v1.4.0-beta) (2023-10-30)
+### ♻️ Updates
 
-### Bug fixes
+- [`d0a4aceb`](https://github.com/staart/api/commit/d0a4aceb)  Check for primary email on deleting emails
+- [`1777332d`](https://github.com/staart/api/commit/1777332d)  Auto-join groups based on email address
+- [`5abcc56d`](https://github.com/staart/api/commit/5abcc56d)  Use explicit ID type in params
+- [`c499a62c`](https://github.com/staart/api/commit/c499a62c)  Store parsed details in session, Change Mac OS -&gt; macOS
+- [`e54ddd9b`](https://github.com/staart/api/commit/e54ddd9b)  Allow cursors with implicit ID
+- [`cf873b1a`](https://github.com/staart/api/commit/cf873b1a)  Use colon instead of space in order-by pipe
 
-- fix: welcome crash ([#1429](https://github.com/apitable/apitable/pull/1429)) @wangkailang
+### 🐛 Bug fixes
 
-### What's more
+- [`150f42f0`](https://github.com/staart/api/commit/150f42f0)  Ensure there is at least 1 owner in group
+- [`3d73c616`](https://github.com/staart/api/commit/3d73c616)  Use groupId request param
+- [`1804bf39`](https://github.com/staart/api/commit/1804bf39)  Render mustache before setting subject
+- [`c3dcb4a5`](https://github.com/staart/api/commit/c3dcb4a5)  Fix scopes for user, groups routes
+- [`3c645992`](https://github.com/staart/api/commit/3c645992)  Validate domain name
+- [`3175c42d`](https://github.com/staart/api/commit/3175c42d)  Only add Stripe scopes if account exists
 
-- docs: add one-click-deploy link @jbgh
-- add Dome one-click badge @jbgh
-- docs: add one-click-deploy link ([#1378](https://github.com/apitable/apitable/pull/1378)) @paylm
-- sync: hosted cloud ([#1407](https://github.com/apitable/apitable/pull/1407)) @shawndenggh
-- sync: hosted cloud ([#1427](https://github.com/apitable/apitable/pull/1427)) @jeremyyin2012
+## [v3.5.5](https://github.com/staart/api/compare/v3.5.4...v3.5.5) (2020-11-15)
 
-## [v1.3.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.3.0-beta.1) (2023-10-17)
+### 🐛 Bug fixes
 
-### Bug fixes
+- [`cfe9855a`](https://github.com/staart/api/commit/cfe9855a)  Return user info on update/delete
 
-- fix: Update CHANGELOG.md ([#1374](https://github.com/apitable/apitable/pull/1374)) @robot518
-- fix: room-server use pnpm command ([#1384](https://github.com/apitable/apitable/pull/1384)) @cloud0072
-- fix: record_archive db changelog ([#1388](https://github.com/apitable/apitable/pull/1388)) @chalme
-- fix: change update ([#1389](https://github.com/apitable/apitable/pull/1389)) @chalme
-- fix: archived crash @laboonly
-- fix: Tooltip components import path @laboonly
-- fix: archived crash ([#1392](https://github.com/apitable/apitable/pull/1392)) @laboonly
+## [v3.5.4](https://github.com/staart/api/compare/v3.5.3...v3.5.4) (2020-11-15)
 
-### What's more
+### 🐛 Bug fixes
 
-- sync: hosted cloud ([#1385](https://github.com/apitable/apitable/pull/1385)) @JoverZhang
-- chore: make web server arm64 build as experimental ([#1390](https://github.com/apitable/apitable/pull/1390)) @networkhermit
+- [`bacd1e0b`](https://github.com/staart/api/commit/bacd1e0b)  Include user in membership response
 
-## [v1.3.0-beta](https://github.com/apitable/apitable/releases/tag/v1.3.0-beta) (2023-10-09)
+## [v3.5.3](https://github.com/staart/api/compare/v3.5.2...v3.5.3) (2020-11-15)
 
-### Bug fixes
+### ♻️ Updates
 
-- fix: widget-sdk pkg with js files ([#1362](https://github.com/apitable/apitable/pull/1362)) @Kilian
-- fix: project startup error @JaneSu
-- fix: project startup error ([#1370](https://github.com/apitable/apitable/pull/1370)) @Aria
+- [`ed3b942e`](https://github.com/staart/api/commit/ed3b942e)  Delete sessions on deactivate
 
-### What's more
+## [v3.5.2](https://github.com/staart/api/compare/v3.5.1...v3.5.2) (2020-11-15)
 
-- ci: test ci @JaneSu
-- ci: test ci @JaneSu
-- ci: test ci @JaneSu
-- ci: test ci @JaneSu
-- ci: test ci @JaneSu
-- ci: test ci ([#1366](https://github.com/apitable/apitable/pull/1366)) @Aria
-- sync: hosted cloud ([#1367](https://github.com/apitable/apitable/pull/1367)) @Robot Ye Chen
+### 🐛 Bug fixes
 
-## [v1.2.0-beta](https://github.com/apitable/apitable/releases/tag/v1.2.0-beta) (2023-09-25)
+- [`a8c75f8b`](https://github.com/staart/api/commit/a8c75f8b)  Merge requests cannot go for the same user
 
-### What's more
+## [v3.5.1](https://github.com/staart/api/compare/v3.5.0...v3.5.1) (2020-11-15)
 
-- sync: hosted cloud ([#1336](https://github.com/apitable/apitable/pull/1336)) @functionChenGuoFeng
-- chore: gitpod automatic pnpm ([#1337](https://github.com/apitable/apitable/pull/1337)) @functionChenGuoFeng
+### 🐛 Bug fixes
 
-## [v1.1.0-beta](https://github.com/apitable/apitable/releases/tag/v1.1.0-beta) (2023-09-18)
+- [`95678056`](https://github.com/staart/api/commit/95678056)  Validate new email
 
-### What's more
+## [v3.5.0](https://github.com/staart/api/compare/v3.4.0...v3.5.0) (2020-11-14)
 
-- sync: hosted cloud ([#1319](https://github.com/apitable/apitable/pull/1319)) @ChambersChan
+### ✨ New features
 
-## [v1.0.0-beta.1](https://github.com/apitable/apitable/releases/tag/v1.0.0-beta.1) (2023-09-11)
+- [`de4dd7a6`](https://github.com/staart/api/commit/de4dd7a6)  Add Google Maps module
+- [`7d1c2918`](https://github.com/staart/api/commit/7d1c2918)  Add Playwrite module
 
-### Features and enhancements
+### ♻️ Updates
 
-- feat: changelog update @chalme
+- [`a7197cb5`](https://github.com/staart/api/commit/a7197cb5)  Rename service clients to &#x60;client&#x60;
+- [`163f170e`](https://github.com/staart/api/commit/163f170e)  Use tokensService instead of jwtService
+- [`16afe470`](https://github.com/staart/api/commit/16afe470)  Add default boolean configuration values
 
-### What's more
+## [v3.4.0](https://github.com/staart/api/compare/v3.3.1...v3.4.0) (2020-11-13)
 
-- chore: changelog for v1.0.0-beta ([#1278](https://github.com/apitable/apitable/pull/1278)) @chalme
-- sync: hosted cloud ([#1301](https://github.com/apitable/apitable/pull/1301)) @shawndenggh
+### ✨ New features
 
-## [v1.0.0-beta](https://github.com/apitable/apitable/releases/tag/v1.0.0-beta) (2023-09-05)
+- [`99f17c8e`](https://github.com/staart/api/commit/99f17c8e)  Add Slack module
+- [`bd930bec`](https://github.com/staart/api/commit/bd930bec)  Add Airtable module
+- [`7bc5e7c6`](https://github.com/staart/api/commit/7bc5e7c6)  Add AWS S3 service
+- [`37c1eb8b`](https://github.com/staart/api/commit/37c1eb8b)  Add Cloudinary module
+- [`835eb270`](https://github.com/staart/api/commit/835eb270)  Add Firebase module
+- [`a0eff5a8`](https://github.com/staart/api/commit/a0eff5a8)  Add GitHub module
 
-### Bug fixes
+## [v3.3.1](https://github.com/staart/api/compare/v3.3.0...v3.3.1) (2020-11-13)
 
-- fix: fusion path proxy ([#1261](https://github.com/apitable/apitable/pull/1261)) @ChambersChan
+### ♻️ Updates
 
-### What's more
+- [`841ffef9`](https://github.com/staart/api/commit/841ffef9)  Add endpoints for API key logs
+- [`f50a401c`](https://github.com/staart/api/commit/f50a401c)  Support logging authenticated requests
 
-- chore: changelog for v0.99.1-beta.1 ([#1254](https://github.com/apitable/apitable/pull/1254)) @robot518
-- Update README.md @mr-kelly
-- chore: update readme.md ([#1274](https://github.com/apitable/apitable/pull/1274)) @shawndenggh
-- sync: hosted cloud ([#1276](https://github.com/apitable/apitable/pull/1276)) @chalme
+### 🐛 Bug fixes
 
-## [v0.99.1-beta.1](https://github.com/apitable/apitable/releases/tag/v0.99.1-beta.1) (2023-08-28)
+- [`b9b30146`](https://github.com/staart/api/commit/b9b30146)  Ensure API key is a UUID
 
-### Bug fixes
+## [v3.3.0](https://github.com/staart/api/compare/v3.2.0...v3.3.0) (2020-11-13)
 
-- fix: delete link field crash ([#1253](https://github.com/apitable/apitable/pull/1253)) @wangkailang
+### ✨ New features
 
-### What's more
+- [`bbb002f7`](https://github.com/staart/api/commit/bbb002f7)  Log API requests in ElasticSearch
+- [`89b7bd2c`](https://github.com/staart/api/commit/89b7bd2c)  Delete old API logs
 
-- chore: changelog for v0.99.1-beta ([#1243](https://github.com/apitable/apitable/pull/1243)) @BinsonZoom
-- sync: hosted cloud ([#1248](https://github.com/apitable/apitable/pull/1248)) @robot518
+### ♻️ Updates
 
-## [v0.99.1-beta](https://github.com/apitable/apitable/releases/tag/v0.99.1-beta) (2023-08-22)
+- [`a761d017`](https://github.com/staart/api/commit/a761d017)  Use Authorization header instead of X-Api-Key
 
-### What's more
+### 🐛 Bug fixes
 
-- sync: hosted cloud ([#1207](https://github.com/apitable/apitable/pull/1207)) @zoe-icu
-- sync: hosted cloud ([#1237](https://github.com/apitable/apitable/pull/1237)) @BinsonZoom
+- [`b73cd6aa`](https://github.com/staart/api/commit/b73cd6aa)  Return API key data from LRU if available
 
-## [v0.99.0-beta](https://github.com/apitable/apitable/releases/tag/v0.99.0-beta) (2023-08-07)
+## [v3.2.0](https://github.com/staart/api/compare/v3.1.2...v3.2.0) (2020-11-12)
 
-### Bug fixes
+### ✨ New features
 
-- fix: fix code issues @ranglang
-- fix:press Enter to login ([#1147](https://github.com/apitable/apitable/pull/1147)) @yo-ooiii
-- fix: typo ([#1170](https://github.com/apitable/apitable/pull/1170)) @okisdev
-- fix: fix code issues @ranglang
-- fix: fix code issues @ranglang
-- fix: remove the deprecated vscode extension ([#1178](https://github.com/apitable/apitable/pull/1178)) @okisdev
+- [`4631bbb8`](https://github.com/staart/api/commit/4631bbb8)  Add ElasticSearch service
 
-### What's more
+## [v3.1.2](https://github.com/staart/api/compare/v3.1.1...v3.1.2) (2020-11-10)
 
-- Press Enter to submit the form @yo-ooiii
-- chore: 0.99.0 release ([#1167](https://github.com/apitable/apitable/pull/1167)) @dage233
-- Merge branch 'develop' into fix/password-enter-login @yo-ooiii
-- Feature/robot rich test ([#1175](https://github.com/apitable/apitable/pull/1175)) @JaneSu
-- sync: hosted cloud ([#1183](https://github.com/apitable/apitable/pull/1183)) @Exclamation-mark
+### ♻️ Updates
 
-## [v0.99.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.99.0-alpha) (2023-08-01)
+- [`8e896920`](https://github.com/staart/api/commit/8e896920)  Add configuration for retries
 
-### Features and enhancements
+### ⬆️ Dependency updates
 
-- feat: add deploy to digitalocean ([#951](https://github.com/apitable/apitable/pull/951)) @networkhermit
-- feat:register user default language ([#1007](https://github.com/apitable/apitable/pull/1007)) @Exclamation-mark
-- feat: enable delete space ([#1079](https://github.com/apitable/apitable/pull/1079)) @wmEvie
-- feat: enable experimental multi-arch build for linux/amd64 and linux/arm64 ([#1103](https://github.com/apitable/apitable/pull/1103)) @networkhermit
-- feat: auto use browser language ([#1152](https://github.com/apitable/apitable/pull/1152)) @qiuqfang
+- [`c03fb8d8`](https://github.com/staart/api/commit/c03fb8d8)  Update aws-sdk, stripe
 
-### Bug fixes
+## [v3.1.1](https://github.com/staart/api/compare/v3.1.0...v3.1.1) (2020-11-09)
 
-- fix: add missing alt attribute to Upgrade Succeed image ([#941](https://github.com/apitable/apitable/pull/941)) @shunyue1320
-- fix: allow unit_id to be empty string @zoe-icu
-- fix: allow unit_id to be empty string ([#953](https://github.com/apitable/apitable/pull/953)) @zoe-icu
-- fix: fix scrollbar's bg style ([#5138](https://github.com/apitable/apitable/pull/5138)) @ranglang
-- fix: fix scrollbar's bg style ([#5138](https://github.com/apitable/apitable/pull/5138)) (#988) @JaneSu
-- fix: fix checkbox emoj for cell value @ranglang
-- fix: fix checkbox emoj for cell value ([#999](https://github.com/apitable/apitable/pull/999)) @ranglang
-- fix: zh-CN.strings error ([#1006](https://github.com/apitable/apitable/pull/1006)) @Exclamation-mark
-- fix: fusion api select new option error ([#1014](https://github.com/apitable/apitable/pull/1014)) @arucil
-- fix: quote template sub node sync failure ([#1018](https://github.com/apitable/apitable/pull/1018)) @ChambersChan
-- fix: get error language code und ([#1022](https://github.com/apitable/apitable/pull/1022)) @Exclamation-mark
-- fix: changelog version error @Exclamation-mark
-- fix: fix dashboard connected for widget [#5133](https://github.com/apitable/apitable/pull/5133) (#1059) @ranglang
-- fix: Improved security by replacing the custom secret CR_PAT with the built-in GITHUB_TOKEN in the GitHub Actions workflow file ai_code_reviewer.yml. ([#1075](https://github.com/apitable/apitable/pull/1075)) @mr-kelly
-- fix: sign up password match issue ([#1052](https://github.com/apitable/apitable/pull/1052)) (#1074) @llkevin13579
-- fix: fix i18n tips ([#1078](https://github.com/apitable/apitable/pull/1078)) @ranglang
-- fix: disable USE_NATIVE_MODULE by default ([#1086](https://github.com/apitable/apitable/pull/1086)) @maltoze
-- fix: update error message ([#1097](https://github.com/apitable/apitable/pull/1097)) @llkevin13579
-- fix: duplicate bucket path ([#1146](https://github.com/apitable/apitable/pull/1146)) @ChambersChan
+### ♻️ Updates
 
-### What's more
+- [`fb081a2c`](https://github.com/staart/api/commit/fb081a2c)  Allow email configuration of SES
+- [`d576cf0e`](https://github.com/staart/api/commit/d576cf0e)  Change required config in SES
 
-- chore: add config for specifying rust version ([#947](https://github.com/apitable/apitable/pull/947)) @arucil
-- chore: changelog for 0.22.0-alpha ([#948](https://github.com/apitable/apitable/pull/948)) @shawndenggh
-- sync: hosted cloud ([#967](https://github.com/apitable/apitable/pull/967)) @ChambersChan
-- sync: hosted cloud ([#969](https://github.com/apitable/apitable/pull/969)) @ChambersChan
-- chore: changelog for v0.22.0-beta ([#970](https://github.com/apitable/apitable/pull/970)) @ChambersChan
-- sync: hosted cloud ([#989](https://github.com/apitable/apitable/pull/989)) @Exclamation-mark
-- chore: changelog for v0.22.0-beta.1 @Exclamation-mark
-- Merge branch 'develop' into feature/fix-checkbox-emoj @JaneSu
-- sync: hosted ([#1013](https://github.com/apitable/apitable/pull/1013)) @arucil
-- sync: hosted cloud ([#1056](https://github.com/apitable/apitable/pull/1056)) @Exclamation-mark
-- chore: changelog for v0.23.0-release @Exclamation-mark
-- chore(deps-dev): bump stylelint from 13.9.0 to 15.10.1 ([#1046](https://github.com/apitable/apitable/pull/1046)) @dependabot[bot]
-- chore(deps): bump semver from 7.3.8 to 7.5.2 ([#983](https://github.com/apitable/apitable/pull/983)) @dependabot[bot]
-- chore(deps): bump posthog-js from 1.51.1 to 1.57.2 ([#843](https://github.com/apitable/apitable/pull/843)) @dependabot[bot]
-- chore(deps): bump @grpc/grpc-js from 1.7.1 to 1.8.8 ([#1031](https://github.com/apitable/apitable/pull/1031)) @dependabot[bot]
-- chore(deps): bump socket.io-parser from 3.3.0 to 3.3.3 ([#863](https://github.com/apitable/apitable/pull/863)) @dependabot[bot]
-- chore: Added GitHub Actions workflow file for AI code review. ([#1071](https://github.com/apitable/apitable/pull/1071)) @mr-kelly
-- sync: hosted cloud ([#1094](https://github.com/apitable/apitable/pull/1094)) @ChambersChan
-- chore: changelog for v0.23.0-beta.2 ([#1099](https://github.com/apitable/apitable/pull/1099)) @ChambersChan
-- chore: trigger multi-arch build only on tag as it is extreme slow ([#1106](https://github.com/apitable/apitable/pull/1106)) @networkhermit
-- chore(deps): bump word-wrap from 1.2.3 to 1.2.4 ([#1104](https://github.com/apitable/apitable/pull/1104)) @dependabot[bot]
-- sync/hosted into develop ([#1123](https://github.com/apitable/apitable/pull/1123)) @functionChenGuoFeng
-- chore: update v0.24.0-alpha changelog ([#1131](https://github.com/apitable/apitable/pull/1131)) @functionChenGuoFeng
-- Update ja-JP/README.md ([#1030](https://github.com/apitable/apitable/pull/1030)) @eltociear
-- Make mail STARTTLS settings configurable ([#1072](https://github.com/apitable/apitable/pull/1072)) @spantaleev
-- docs: remove duplicate contribution introduction in readme ([#1156](https://github.com/apitable/apitable/pull/1156)) @ChambersChan
-- Revert "feat: auto use browser language" ([#1166](https://github.com/apitable/apitable/pull/1166)) @wangkailang
-- sync: hosted cloud ([#1164](https://github.com/apitable/apitable/pull/1164)) @dage233
+## [v3.1.0](https://github.com/staart/api/compare/v3.0.1...v3.1.0) (2020-11-09)
 
-## [v0.24.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.24.0-alpha) (2023-07-25)
+### ✨ New features
 
-### Features and enhancements
+- [`48ba1763`](https://github.com/staart/api/commit/48ba1763)  Add account deactivate (fixed #1350)
+(Issues: [`#1350`](https://github.com/staart/api/issues/1350))
 
-- feat: enable experimental multi-arch build for linux/amd64 and linux/arm64 ([#1103](https://github.com/apitable/apitable/pull/1103)) @networkhermit
+### ♻️ Updates
 
-### Bug fixes
+- [`dc1a3704`](https://github.com/staart/api/commit/dc1a3704)  Auto-set account to active on login
 
-- fix: update error message ([#1097](https://github.com/apitable/apitable/pull/1097)) @llkevin13579
+## [v3.0.1](https://github.com/staart/api/compare/v3.0.0...v3.0.1) (2020-11-08)
 
-### What's more
+### 🐛 Bug fixes
 
-- chore: changelog for v0.23.0-beta.2 ([#1099](https://github.com/apitable/apitable/pull/1099)) @ChambersChan
-- chore: trigger multi-arch build only on tag as it is extreme slow ([#1106](https://github.com/apitable/apitable/pull/1106)) @networkhermit
-- chore(deps): bump word-wrap from 1.2.3 to 1.2.4 ([#1104](https://github.com/apitable/apitable/pull/1104)) @dependabot[bot]
-- sync/hosted into develop ([#1123](https://github.com/apitable/apitable/pull/1123)) @functionChenGuoFeng
+- [`ac17d989`](https://github.com/staart/api/commit/ac17d989)  Fix CWE-20 in URL parsing
 
-## [v0.23.0-beta.2](https://github.com/apitable/apitable/releases/tag/v0.23.0-beta.2) (2023-07-18)
+## [v3.0.0](https://github.com/staart/api/compare/v2.21.0...v3.0.0) (2020-11-08)
 
-### Features and enhancements
+### ✨ New features
 
-- feat: enable delete space ([#1079](https://github.com/apitable/apitable/pull/1079)) @wmEvie
-
-### Bug fixes
-
-- fix: fix dashboard connected for widget [#5133](https://github.com/apitable/apitable/pull/5133) (#1059) @ranglang
-- fix: Improved security by replacing the custom secret CR_PAT with the built-in GITHUB_TOKEN in the GitHub Actions workflow file ai_code_reviewer.yml. ([#1075](https://github.com/apitable/apitable/pull/1075)) @mr-kelly
-- fix: sign up password match issue ([#1052](https://github.com/apitable/apitable/pull/1052)) (#1074) @llkevin13579
-- fix: fix i18n tips ([#1078](https://github.com/apitable/apitable/pull/1078)) @ranglang
-- fix: disable USE_NATIVE_MODULE by default ([#1086](https://github.com/apitable/apitable/pull/1086)) @maltoze
-
-### What's more
-
-- chore(deps-dev): bump stylelint from 13.9.0 to 15.10.1 ([#1046](https://github.com/apitable/apitable/pull/1046)) @dependabot[bot]
-- chore(deps): bump semver from 7.3.8 to 7.5.2 ([#983](https://github.com/apitable/apitable/pull/983)) @dependabot[bot]
-- chore(deps): bump posthog-js from 1.51.1 to 1.57.2 ([#843](https://github.com/apitable/apitable/pull/843)) @dependabot[bot]
-- chore(deps): bump @grpc/grpc-js from 1.7.1 to 1.8.8 ([#1031](https://github.com/apitable/apitable/pull/1031)) @dependabot[bot]
-- chore(deps): bump socket.io-parser from 3.3.0 to 3.3.3 ([#863](https://github.com/apitable/apitable/pull/863)) @dependabot[bot]
-- chore: Added GitHub Actions workflow file for AI code review. ([#1071](https://github.com/apitable/apitable/pull/1071)) @mr-kelly
-- sync: hosted cloud ([#1094](https://github.com/apitable/apitable/pull/1094)) @ChambersChan
-
-## [v0.23.0-beta.1](https://github.com/apitable/apitable/releases/tag/v0.23.0-beta.1) (2023-07-10)
-
-### Bug fixes
-
-- fix: quote template sub node sync failure ([#1018](https://github.com/apitable/apitable/pull/1018)) @ChambersChan
-- fix: get error language code und ([#1022](https://github.com/apitable/apitable/pull/1022)) @Exclamation-mark
-
-### What's more
-
-- sync: hosted cloud ([#1056](https://github.com/apitable/apitable/pull/1056)) @Exclamation-mark
-
-## [v0.23.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.23.0-alpha) (2023-07-03)
-
-### Features and enhancements
-
-- feat:register user default language ([#1007](https://github.com/apitable/apitable/pull/1007)) @Exclamation-mark
-
-### Bug fixes
-
-- fix: fix scrollbar's bg style ([#5138](https://github.com/apitable/apitable/pull/5138)) (#988) @JaneSu
-- fix: fix checkbox emoj for cell value ([#999](https://github.com/apitable/apitable/pull/999)) @ranglang
-- fix: zh-CN.strings error ([#1006](https://github.com/apitable/apitable/pull/1006)) @Exclamation-mark
-- fix: fusion api select new option error ([#1014](https://github.com/apitable/apitable/pull/1014)) @arucil
-- fix: quote template sub node sync failure ([#1018](https://github.com/apitable/apitable/pull/1018)) @ChambersChan
-- fix: get error language code und ([#1022](https://github.com/apitable/apitable/pull/1022)) @Exclamation-mark
-
-### What's more
-
-- chore: changelog for v0.22.0-beta.1 @Exclamation-mark
-- Merge branch 'develop' into feature/fix-checkbox-emoj @JaneSu
-- sync: hosted ([#1013](https://github.com/apitable/apitable/pull/1013)) @arucil
-- sync: hosted cloud ([#1056](https://github.com/apitable/apitable/pull/1056)) @Exclamation-mark
-
-## [v0.22.0-beta.1](https://github.com/apitable/apitable/releases/tag/v0.22.0-beta.1) (2023-06-26)
-
-### What's more
-
-- chore: changelog for v0.22.0-beta ([#970](https://github.com/apitable/apitable/pull/970)) @ChambersChan
-- sync: hosted cloud ([#989](https://github.com/apitable/apitable/pull/989)) @Exclamation-mark
-
-## [v0.22.0-beta](https://github.com/apitable/apitable/releases/tag/v0.22.0-beta) (2023-06-19)
-
-### Features and enhancements
-
-- feat: add deploy to digitalocean ([#951](https://github.com/apitable/apitable/pull/951)) @networkhermit
-
-### Bug fixes
-
-- fix: add missing alt attribute to Upgrade Succeed image ([#941](https://github.com/apitable/apitable/pull/941)) @shunyue1320
-- fix: allow unit_id to be empty string @zoe-icu
-- fix: allow unit_id to be empty string ([#953](https://github.com/apitable/apitable/pull/953)) @zoe-icu
-
-### What's more
-
-- chore: add config for specifying rust version ([#947](https://github.com/apitable/apitable/pull/947)) @arucil
-- chore: changelog for 0.22.0-alpha ([#948](https://github.com/apitable/apitable/pull/948)) @shawndenggh
-- sync: hosted cloud ([#967](https://github.com/apitable/apitable/pull/967)) @ChambersChan
-- sync: hosted cloud ([#969](https://github.com/apitable/apitable/pull/969)) @ChambersChan
-
-## [v0.22.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.22.0-alpha) (2023-06-12)
-
-### What's more
-
-- sync: hosted cloud ([#944](https://github.com/apitable/apitable/pull/944)) @shawndenggh
-- chore: merge release/0.21.0 into develop ([#945](https://github.com/apitable/apitable/pull/945)) @shawndenggh
-
-## [v0.21.0-rc.1](https://github.com/apitable/apitable/releases/tag/v0.21.0-rc.1) (2023-06-05)
-
-### Features and enhancements
-
-- feat: add gzip support in nginx gateway ([#901](https://github.com/apitable/apitable/pull/901)) @networkhermit
-
-### Bug fixes
-
-- fix: improve toolbar view @xieyhn
-- fix: option search not case sensitive ([#892](https://github.com/apitable/apitable/pull/892)) @wangkailang
-- fix: components unit test error ([#867](https://github.com/apitable/apitable/pull/867)) @GreenMashimaro
-- fix/tooltip-flicker @wangkailang
-- fix: improve toolbar view ([#869](https://github.com/apitable/apitable/pull/869)) @JaneSu
-
-### What's more
-
-- docs: remove databus guide ([#873](https://github.com/apitable/apitable/pull/873)) @arucil
-- docs: publish cookbook and self-hosted doc replace original developer guide ([#886](https://github.com/apitable/apitable/pull/886)) @mr-kelly
-- New Crowdin updates ([#796](https://github.com/apitable/apitable/pull/796)) @mr-kelly
-- chore: clarify title of issue templates ([#899](https://github.com/apitable/apitable/pull/899)) @arucil
-- sync: hosted cloud ([#916](https://github.com/apitable/apitable/pull/916)) @yort-feng
-
-## [v0.21.0-rc](https://github.com/apitable/apitable/releases/tag/v0.21.0-rc) (2023-05-29)
-
-### Features and enhancements
-
-- feat:add language feed back link to datasheet env ([#842](https://github.com/apitable/apitable/pull/842)) @Exclamation-mark
-
-### Bug fixes
-
-- fix: API panel click more button redirects to a blank page ([#829](https://github.com/apitable/apitable/pull/829)) (#833) @luckyyyyy
-- fix: field undefined crash ([#884](https://github.com/apitable/apitable/pull/884)) @wangkailang
-
-### What's more
-
-- chore: update translation feedback help url @wmEvie
-- chore: update translation feedback help url ([#841](https://github.com/apitable/apitable/pull/841)) @wmEvie
-- docs: delete duplicated sentences ([#808](https://github.com/apitable/apitable/pull/808)) @noahlam
-- refactor: de-duplications npm packages ([#847](https://github.com/apitable/apitable/pull/847)) @mr-kelly
-- sync: hosted cloud ([#881](https://github.com/apitable/apitable/pull/881)) @yort-feng
-
-## [v0.21.0-beta](https://github.com/apitable/apitable/releases/tag/v0.21.0-beta) (2023-05-22)
-
-### Features and enhancements
-
-- feat: upgrade liquibase version ([#801](https://github.com/apitable/apitable/pull/801)) @shawndenggh
-- feat: add new email templates @xukecheng
-- feat: add new email templates ([#831](https://github.com/apitable/apitable/pull/831)) @xukecheng
-
-### Bug fixes
-
-- fix: remove pre-init-db since upgrade liquibase ([#824](https://github.com/apitable/apitable/pull/824)) @shawndenggh
-
-### What's more
-
-- docs: guide on setting up python and gcc ([#802](https://github.com/apitable/apitable/pull/802)) @arucil
-- docs: add clearer description of language versions ([#827](https://github.com/apitable/apitable/pull/827)) @arucil
-- sync: hosted cloud ([#840](https://github.com/apitable/apitable/pull/840)) @yort-feng
-- chore: update translation feedback help url @wmEvie
-- chore: update translation feedback help url ([#841](https://github.com/apitable/apitable/pull/841)) @wmEvie
-
-## [v0.21.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.21.0-alpha) (2023-05-15)
-
-### Features and enhancements
-
-- feat:support language de-DE,es-ES,it-IT,es-ES,it-IT,ja-JP,ko-KR,ru-RU @Exclamation-mark
-- feat: update node-gyp to latest version ([#793](https://github.com/apitable/apitable/pull/793)) @arucil
-
-### Bug fixes
-
-- fix(room-server): missing dependencies in image ([#4926](https://github.com/apitable/apitable/pull/4926)) (#777) @arucil
-- fix:add missing architecture-overview.png ([#782](https://github.com/apitable/apitable/pull/782)) @Exclamation-mark
-- fix: login icon bug @laboonly
-- fix: login icon bug ([#799](https://github.com/apitable/apitable/pull/799)) @laboonly
-
-### What's more
-
-- docs: README ([#769](https://github.com/apitable/apitable/pull/769)) @mr-kelly
-- New Crowdin updates ([#749](https://github.com/apitable/apitable/pull/749)) @mr-kelly
-- docs: create bug report in zh-CN ([#788](https://github.com/apitable/apitable/pull/788)) @mr-kelly
-- docs: issue template of bug report cn ([#789](https://github.com/apitable/apitable/pull/789)) @mr-kelly
-- sync: hosted cloud ([#794](https://github.com/apitable/apitable/pull/794)) @yort-feng
-- chore: changelog for v0.20.0-rc.1 release ([#795](https://github.com/apitable/apitable/pull/795)) @yort-feng
-
-## [v0.20.0-rc.1](https://github.com/apitable/apitable/releases/tag/v0.20.0-rc.1) (2023-05-08)
-
-### Features and enhancements
-
-- feat(l10n):support french && chinese traditional ([#741](https://github.com/apitable/apitable/pull/741)) @Exclamation-mark
-
-### Bug fixes
-
-- fix: avoid loading room-native-api if USE_NATIVE_MODULE is disabled ([#743](https://github.com/apitable/apitable/pull/743)) @arucil
-- fix: disable forbid unknow values ([#750](https://github.com/apitable/apitable/pull/750)) @yort-feng
-- fix: add multi language images ([#751](https://github.com/apitable/apitable/pull/751)) @luoyunyao
-
-### What's more
-
-- Crowdin add French strings([#684](https://github.com/apitable/apitable/pull/684)) @mr-kelly
-- docs: design system ([#748](https://github.com/apitable/apitable/pull/748)) @mr-kelly
-- docs: discord invite link update ([#726](https://github.com/apitable/apitable/pull/726)) @mr-kelly
-- docs: update Crowdin translate link ([#760](https://github.com/apitable/apitable/pull/760)) @Exclamation-mark
-- docs: submit a detail PRD issue ([#762](https://github.com/apitable/apitable/pull/762)) @mr-kelly
-- chore: sorts of chores ([#763](https://github.com/apitable/apitable/pull/763)) @mr-kelly
-- sync: hosted cloud ([#766](https://github.com/apitable/apitable/pull/766)) @yort-feng
-
-## [v0.20.0-rc](https://github.com/apitable/apitable/releases/tag/v0.20.0-rc) (2023-04-25)
-
-### Features and enhancements
-
-- feat(l10n):Crowdin support translate strings.en-US.json ([#731](https://github.com/apitable/apitable/pull/731)) @Exclamation-mark
-
-### Bug fixes
-
-- fix: widget filter ([#714](https://github.com/apitable/apitable/pull/714)) @yort-feng
-- fix: init the custom widget command error ([#719](https://github.com/apitable/apitable/pull/719)) @Sky-FE
-- fix: folder favorite click crash ([#735](https://github.com/apitable/apitable/pull/735)) @wangkailang
-- fix: strings default crash ([#740](https://github.com/apitable/apitable/pull/740)) @wangkailang
-
-### What's more
-
-- release: v0.20.0-alpha ([#698](https://github.com/apitable/apitable/pull/698)) @yort-feng
-- docs: add Scripting Widget documentation link ([#711](https://github.com/apitable/apitable/pull/711)) @mr-kelly
-- sync: hosted cloud ([#739](https://github.com/apitable/apitable/pull/739)) @yort-feng
-
-## [v0.20.0-beta](https://github.com/apitable/apitable/releases/tag/v0.20.0-beta) (2023-04-17)
-
-### Bug fixes
-
-- fix: widget filter ([#714](https://github.com/apitable/apitable/pull/714)) @yort-feng
-
-### What's more
-
-- release: v0.20.0-alpha ([#698](https://github.com/apitable/apitable/pull/698)) @yort-feng
-- docs: add Scripting Widget documentation link ([#711](https://github.com/apitable/apitable/pull/711)) @mr-kelly
-- sync: hosted cloud ([#713](https://github.com/apitable/apitable/pull/713)) @yort-feng
-
-## [v0.20.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.20.0-alpha) (2023-04-10)
-
-### Bug fixes
-
-- fix: recommend widget icon display ([#681](https://github.com/apitable/apitable/pull/681)) @ChambersChan
-- fix: recover deleted node failure issue ([#695](https://github.com/apitable/apitable/pull/695)) @ChambersChan
-- fix: add cascader strings ([#696](https://github.com/apitable/apitable/pull/696)) @wangkailang
-
-### What's more
-
-- New Crowdin updates ([#653](https://github.com/apitable/apitable/pull/653)) @mr-kelly
-- docs: databus guide ([#683](https://github.com/apitable/apitable/pull/683)) @arucil
-- sync: hosted cloud ([#689](https://github.com/apitable/apitable/pull/689)) @yort-feng
-
-## [v0.19.0-rc](https://github.com/apitable/apitable/releases/tag/v0.19.0-rc) (2023-04-03)
-
-### Bug fixes
-
-- fix: widget package submit error issue ([#671](https://github.com/apitable/apitable/pull/671)) @ChambersChan
-
-### What's more
-
-- docs: widget-sdk documentation ([#652](https://github.com/apitable/apitable/pull/652)) @mr-kelly
-- docs: Improve translation of README and developer-guide in other languages ([#285](https://github.com/apitable/apitable/pull/285)) @mr-kelly
-- docs: add brew install canvas ([#599](https://github.com/apitable/apitable/pull/599)) (#654) @Exclamation-mark
-- docs: remove description of default username in readme ([#657](https://github.com/apitable/apitable/pull/657)) @ChambersChan
-- docs: developer-guide add multilingual translation (l10n) workflow ([#661](https://github.com/apitable/apitable/pull/661)) @Exclamation-mark
-- docs: add multi-language images ([#663](https://github.com/apitable/apitable/pull/663)) @luoyunyao
-- sync: hosted cloud ([#670](https://github.com/apitable/apitable/pull/670)) @yort-feng
-
-## [v0.19.0-beta](https://github.com/apitable/apitable/releases/tag/v0.19.0-beta) (2023-03-27)
-
-### Bug fixes
-
-- fix: sign up password placeholder string @laboonly
-- fix: sign up password placeholder string ([#590](https://github.com/apitable/apitable/pull/590)) @laboonly
-- fix: subscription key undefined check ([#629](https://github.com/apitable/apitable/pull/629)) @wangkailang
-- fix: level card subscription check ([#648](https://github.com/apitable/apitable/pull/648)) @wangkailang
-
-### What's more
-
-- docs: update developer-guide.md ([#605](https://github.com/apitable/apitable/pull/605)) @mr-kelly
-- doc: answer api document address ([#606](https://github.com/apitable/apitable/pull/606)) @shawndenggh
-- docs: answer smtp configure & the limitation of widget quantity in da… ([#608](https://github.com/apitable/apitable/pull/608)) @ChambersChan
-- docs: answer default port and upgrade @paylm
-- docs: answer default port ([#613](https://github.com/apitable/apitable/pull/613)) @paylm
-- sync: hosted cloud ([#611](https://github.com/apitable/apitable/pull/611)) @ChambersChan
-- docs: developer guide questions ([#609](https://github.com/apitable/apitable/pull/609)) @yort-feng
-- chore: contributing in readme ([#624](https://github.com/apitable/apitable/pull/624)) @mr-kelly
-- chore: update async view config @wmEvie
-- chore: update async view config ([#632](https://github.com/apitable/apitable/pull/632)) @wmEvie
-- chore: heartbeat cron ([#641](https://github.com/apitable/apitable/pull/641)) @ChambersChan
-- sync: hosted cloud ([#642](https://github.com/apitable/apitable/pull/642)) @yort-feng
-
-## [v0.19.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.19.0-alpha) (2023-03-20)
-
-### Bug fixes
-
-- fix: remove unused test file ([#565](https://github.com/apitable/apitable/pull/565)) @shawndenggh
-- fix: disable awsc ignore verification ([#577](https://github.com/apitable/apitable/pull/577)) @wangkailang
-- fix: sign up password placeholder string @laboonly
-- fix: sign up password placeholder string ([#590](https://github.com/apitable/apitable/pull/590)) @laboonly
-
-### What's more
-
-- release: v0.18.0-rc.2 ([#556](https://github.com/apitable/apitable/pull/556)) @yort-feng
-- sync: hosted cloud ([#589](https://github.com/apitable/apitable/pull/589)) @yort-feng
-
-## [v0.18.0-rc.2](https://github.com/apitable/apitable/releases/tag/v0.18.0-rc.2) (2023-03-13)
-
-### Features and enhancements
-
-- feat: optimize patch records api ([#526](https://github.com/apitable/apitable/pull/526)) @yort-feng
-- feat: optimize post records api ([#544](https://github.com/apitable/apitable/pull/544)) @yort-feng
-- feat: add a snippet code of prodcut analytics ([#547](https://github.com/apitable/apitable/pull/547)) @Sky-FE
-- feat: support huaweicloud OBS for Oss ([#537](https://github.com/apitable/apitable/pull/537)) @showlovetommy
-
-### Bug fixes
-
-- fix: correct env value about all-in-one dockerfile ([#528](https://github.com/apitable/apitable/pull/528)) @ChambersChan
-- fix: init theme in widget runtime ([#542](https://github.com/apitable/apitable/pull/542)) @boris-w
-- fix: query may be undefined ([#553](https://github.com/apitable/apitable/pull/553)) @boris-w
-
-### What's more
-
-- refactor: replace node cte sql ([#473](https://github.com/apitable/apitable/pull/473)) @ChambersChan
-- sync: hosted cloud ([#551](https://github.com/apitable/apitable/pull/551)) @yort-feng
-
-## [v0.18.0-rc.1](https://github.com/apitable/apitable/releases/tag/v0.18.0-rc.1) (2023-03-06)
-
-### Features and enhancements
-
-- feat: fix existing unidir link ([#3333](https://github.com/apitable/apitable/pull/3333)) @arucil
-- feat: apitable support to reset password ([#3278](https://github.com/apitable/apitable/pull/3278)) @zoe-icu
-- feat: timezone fe ([#3268](https://github.com/apitable/apitable/pull/3268)) @wangkailang
-- feat: apitable change password ([#3369](https://github.com/apitable/apitable/pull/3369)) @laboonly
-- feat: components color change ([#3386](https://github.com/apitable/apitable/pull/3386)) @laboonly
-- feat: add apitable cloud reset password error message ([#3438](https://github.com/apitable/apitable/pull/3438)) @laboonly
-- feat: auth0 email varify ([#3465](https://github.com/apitable/apitable/pull/3465)) @zoe-icu
-- feat: apitable email verification page ([#3456](https://github.com/apitable/apitable/pull/3456)) @laboonly
-- feat: node update/create api modify ([#3477](https://github.com/apitable/apitable/pull/3477)) @zoe-icu
-- feat: infoflow share form permission ([#3469](https://github.com/apitable/apitable/pull/3469)) @zoe-icu
-- feat: design icons ([#3442](https://github.com/apitable/apitable/pull/3442)) @Sky-FE
-- feat: migrate getRecordsById to rust ([#3391](https://github.com/apitable/apitable/pull/3391)) @arucil
-- feat: merge test/0.18.1 into develop ([#3515](https://github.com/apitable/apitable/pull/3515)) @arucil
-- feat: set system default timezone ([#3517](https://github.com/apitable/apitable/pull/3517)) @LiuZijingBron
-- feat: phone and email input add input rules ([#3523](https://github.com/apitable/apitable/pull/3523)) @laboonly
-- feat: static icons migration ([#3531](https://github.com/apitable/apitable/pull/3531)) @Sky-FE
-- feat: api modify view name support to define view name length ([#3592](https://github.com/apitable/apitable/pull/3592)) @zoe-icu
-- feat: schedule task for reporting ([#3585](https://github.com/apitable/apitable/pull/3585)) @shawndenggh
-- feat: embed support manual save ([#3619](https://github.com/apitable/apitable/pull/3619)) @JaneSu
-
-### Bug fixes
-
-- fix: core unit test errors ([#3355](https://github.com/apitable/apitable/pull/3355)) @arucil
-- fix: dayjs plugin ts error ([#3365](https://github.com/apitable/apitable/pull/3365)) @wangkailang
-- fix: link auth0 user provider should not be null ([#3377](https://github.com/apitable/apitable/pull/3377)) @zoe-icu
-- fix: use sensors env ([#3404](https://github.com/apitable/apitable/pull/3404)) @wangkailang
-- fix: avoid form commit no change jot ([#3437](https://github.com/apitable/apitable/pull/3437)) @wangkailang
-- fix: only enterprise set symlinks false ([#3448](https://github.com/apitable/apitable/pull/3448)) @wangkailang
-- fix: mobile style ([#3453](https://github.com/apitable/apitable/pull/3453)) @wangkailang
-- fix: modify node info cannot be synchronized ([#3452](https://github.com/apitable/apitable/pull/3452)) @zoe-icu
-- fix: share embed modal form hidden logo ([#3459](https://github.com/apitable/apitable/pull/3459)) @laboonly
-- fix: mirror add record ([#3462](https://github.com/apitable/apitable/pull/3462)) @arucil
-- fix: sensors not found ([#3464](https://github.com/apitable/apitable/pull/3464)) @wangkailang
-- fix: widget menu render ([#3468](https://github.com/apitable/apitable/pull/3468)) @boris-w
-- fix: collaborative add widget in the dashboard does not get the entity ([#3480](https://github.com/apitable/apitable/pull/3480)) @boris-w
-- fix: mobile menu group style ([#3487](https://github.com/apitable/apitable/pull/3487)) @wangkailang
-- fix: widget grid layout init in the dashborad ([#3488](https://github.com/apitable/apitable/pull/3488)) @boris-w
-- fix: popup css error ([#3489](https://github.com/apitable/apitable/pull/3489)) @wangkailang
-- fix: dashboard init layout ([#3509](https://github.com/apitable/apitable/pull/3509)) @boris-w
-- fix: safari create team fail ([#3507](https://github.com/apitable/apitable/pull/3507)) @wangkailang
-- fix: View name length handling error ([#3521](https://github.com/apitable/apitable/pull/3521)) @JaneSu
-- fix: embed link expand record show comment pane ([#3547](https://github.com/apitable/apitable/pull/3547)) @laboonly
-- fix: databus unit test type errors ([#3546](https://github.com/apitable/apitable/pull/3546)) @arucil
-- fix: email and phone feild input add rules ([#3561](https://github.com/apitable/apitable/pull/3561)) @laboonly
-- fix: unknown column issue ([#3562](https://github.com/apitable/apitable/pull/3562)) @yort-feng
-- fix: env control nps disable ([#3578](https://github.com/apitable/apitable/pull/3578)) @wangkailang
-- fix: reset password get verify code ([#3586](https://github.com/apitable/apitable/pull/3586)) @wangkailang
-- fix: space manual view save not work on embed link ([#3581](https://github.com/apitable/apitable/pull/3581)) @zoe-icu
-- fix: web ci fail ([#3593](https://github.com/apitable/apitable/pull/3593)) @wangkailang
-- fix: icon style ([#3600](https://github.com/apitable/apitable/pull/3600)) @Sky-FE
-- fix: multi timeZone serializer ([#3580](https://github.com/apitable/apitable/pull/3580)) @LiuZijingBron
-- fix: apitable register bugfix @laboonly
-- fix: clear console.log @laboonly
-- fix: the logo on the create space page supports the dark theme ([#508](https://github.com/apitable/apitable/pull/508)) @boris-w
-- fix: missing import @laboonly
-- fix: apitable register bugfix ([#509](https://github.com/apitable/apitable/pull/509)) @laboonly
-
-### What's more
-
-- chore: upgrade email copy right @xukecheng
-- Merge branch 'develop' into chore/upgrade_email_copy_right @xukecheng
-- Fix/iteration14 bugfix ([#3351](https://github.com/apitable/apitable/pull/3351)) @laboonly
-- Feat/iframe ([#3361](https://github.com/apitable/apitable/pull/3361)) @JaneSu
-- test: add update user timezone unit test ([#3366](https://github.com/apitable/apitable/pull/3366)) @LiuZijingBron
-- sync: APITable Merge commit 'e6f50e43c1595fd16906c1eabd400f7fdf442542' into develop @mr-kelly
-- Feat/apitable change password ([#3371](https://github.com/apitable/apitable/pull/3371)) @laboonly
-- sync: APITable Merge commit '15856531bd388cc9272c474b19930af398c23c07' into develop @mr-kelly
-- Feat/apitable change password ([#3374](https://github.com/apitable/apitable/pull/3374)) @laboonly
-- Fix cola ([#3381](https://github.com/apitable/apitable/pull/3381)) @JaneSu
-- chore: classify enterprise dir ([#3372](https://github.com/apitable/apitable/pull/3372)) @shawndenggh
-- Merge commit '4d600c938308566f6776d3dfadd8860fd5959fe0' into develop @mr-kelly
-- Fix cola ([#3415](https://github.com/apitable/apitable/pull/3415)) @JaneSu
-- refactor: integrate DataBus into frontend ([#3037](https://github.com/apitable/apitable/pull/3037)) @arucil
-- Feat/embed dashboard ([#3440](https://github.com/apitable/apitable/pull/3440)) @JaneSu
-- chore: merge release/0.18.0 to develop ([#3433](https://github.com/apitable/apitable/pull/3433)) @boris-w
-- chore: apply edition db changeset depend on local differ edition development ([#3447](https://github.com/apitable/apitable/pull/3447)) @shawndenggh
-- refactor: view derivation calculated data ([#2853](https://github.com/apitable/apitable/pull/2853)) @boris-w
-- revert: restore init-appdata service in dataenv-up ([#3450](https://github.com/apitable/apitable/pull/3450)) @shawndenggh
-- Feat/embed dashboard ([#3451](https://github.com/apitable/apitable/pull/3451)) @JaneSu
-- sync: APITable Merge commit '8eb02d1f6fbd1ab43827fadc3e13cc7189c7d02d' into develop @mr-kelly
-- chore: unified data services image version ([#3460](https://github.com/apitable/apitable/pull/3460)) @shawndenggh
-- chore: apitable data services image version change ([#3461](https://github.com/apitable/apitable/pull/3461)) @shawndenggh
-- chore: third-party scripts env ([#3457](https://github.com/apitable/apitable/pull/3457)) @wangkailang
-- Feat/embed dashboard ([#3470](https://github.com/apitable/apitable/pull/3470)) @JaneSu
-- chore: tune mail starter ([#3483](https://github.com/apitable/apitable/pull/3483)) @ChambersChan
-- sync: APITable Merge commit '4135b4e190bca5828c6e19b253e3401575eb3108' into develop @mr-kelly
-- sync: APITable Merge branch 'develop' of github.com:vikadata/vikadata into develop @mr-kelly
-- Revert "feat: migrate getRecordsById to rust ([#3391](https://github.com/apitable/apitable/pull/3391))" (#3500) @arucil
-- chore: tune afs starter & upload afs verify ([#3512](https://github.com/apitable/apitable/pull/3512)) @ChambersChan
-- sync: APITable Merge commit '99f80b54f12d3f68dc5af318dee10696760b4aa6' into develop @mr-kelly
-- refactor: resolve merge conflict ([#3533](https://github.com/apitable/apitable/pull/3533)) @zoe-icu
-- sync: apitable to vikadata ([#3540](https://github.com/apitable/apitable/pull/3540)) @yort-feng
-- chore: ci for cross compiling room-native-api to arm64 ([#3536](https://github.com/apitable/apitable/pull/3536)) @arucil
-- sync: apitable ([#3564](https://github.com/apitable/apitable/pull/3564)) @Sky-FE
-- Revert "sync: apitable" ([#3583](https://github.com/apitable/apitable/pull/3583)) @yort-feng
-- Merge commit '1815a91b6f96361fefcd1de83b7463f0efeecb58' into develop @yort-feng
-- chore: revert commit codes manully due to auto merge issue @yort-feng
-- Merge branch 'develop' into sync/apitable-23022802 @yort-feng
-- Feat/apitable ce register ([#3606](https://github.com/apitable/apitable/pull/3606)) @laboonly
-- chore: merge conflict @Sky-FE
-- Sync/hosted ([#487](https://github.com/apitable/apitable/pull/487)) @laboonly
-- chore: sync env to all-in-one dockerfile ([#491](https://github.com/apitable/apitable/pull/491)) @ChambersChan
-- docs: improve zh-CN translation ([#367](https://github.com/apitable/apitable/pull/367)) @xianjianlf2
-- chore: upgrade email copy right ([#298](https://github.com/apitable/apitable/pull/298)) @xukecheng
-- hpm log with api prefix ([#476](https://github.com/apitable/apitable/pull/476)) @buzuosheng
-- Merge branch 'develop' into fix/register-bugfix @laboonly
-- Merge branch 'develop' into fix/register-bugfix @laboonly
-- Merge branch 'fix/register-bugfix' of github.com:apitable/apitable into fix/register-bugfix @laboonly
-- sync: hosted cloud ([#511](https://github.com/apitable/apitable/pull/511)) @yort-feng
-
-## [v0.18.0-rc](https://github.com/apitable/apitable/releases/tag/v0.18.0-rc) (2023-02-28)
-
-### Features and enhancements
-
-- feat: register api ([#440](https://github.com/apitable/apitable/pull/440)) @ChambersChan
-- feat: replace controller's swagger2 annotation with openapi annotation @LiuZijingBron
-- feat: modify lint.yml @LiuZijingBron
-- feat: modify .jscpd.json @LiuZijingBron
-- feat: Add email template: task-due-remind ([#438](https://github.com/apitable/apitable/pull/438)) @wmEvie
-
-### Bug fixes
-
-- fix: widget crash @JaneSu
-- fix: widget crash ([#448](https://github.com/apitable/apitable/pull/448)) @JaneSu
-- fix: parse date strings in the mobile calendar month picker according to standard format ([#449](https://github.com/apitable/apitable/pull/449)) @Sky-FE
-- fix: trash error ([#455](https://github.com/apitable/apitable/pull/455)) @wangkailang
-- fix: README spell ([#441](https://github.com/apitable/apitable/pull/441)) @0xflotus
-- fix: robot error ([#458](https://github.com/apitable/apitable/pull/458)) @oolongTea007
-
-### What's more
-
-- release: v0.18.0-beta ([#432](https://github.com/apitable/apitable/pull/432)) @yort-feng
-- docs: remove start socket server introduce ([#436](https://github.com/apitable/apitable/pull/436)) @ChambersChan
-- Add email template: task-due-remind @wmEvie
-- chore: replace swagger2 with springdoc-openapi @LiuZijingBron
-- Update subject.properties @wmEvie
-- Merge branch 'develop' into chore-knife4j-swagger @LiuZijingBron
-- chore: replace swagger2 with springdoc-openapi ([#439](https://github.com/apitable/apitable/pull/439)) @LiuZijingBron
-- chore: replace model swagger2 annotation with openapi annotation @LiuZijingBron
-- Merge branch 'develop' into chore-openapi-model @LiuZijingBron
-- chore: replace model swagger2 annotation with openapi annotation ([#460](https://github.com/apitable/apitable/pull/460)) @LiuZijingBron
-- docs: fix L10N readme href ([#456](https://github.com/apitable/apitable/pull/456)) @Jealee3000
-- chroe: Remove task due remind template @wmEvie
-- chroe: Remove task due reminder template ([#466](https://github.com/apitable/apitable/pull/466)) @wmEvie
-- test: add property based tests to DataBus ([#140](https://github.com/apitable/apitable/pull/140)) (#467) @Exclamation-mark
-- refactor: replace dynamic sql in getUserInfo ([#453](https://github.com/apitable/apitable/pull/453)) @Jealee3000
-- sync: hosted cloud ([#470](https://github.com/apitable/apitable/pull/470)) @yort-feng
-- chore: compatible widget icons ([#471](https://github.com/apitable/apitable/pull/471)) @Sky-FE
-- Revert "refactor: replace dynamic sql in getUserInfo" ([#475](https://github.com/apitable/apitable/pull/475)) @yort-feng
-
-## [v0.18.0-beta](https://github.com/apitable/apitable/releases/tag/v0.18.0-beta) (2023-02-22)
-
-### Features and enhancements
-
-- feat: fix existing unidir link & APITable support to reset password & timezone adjust ([#382](https://github.com/apitable/apitable/pull/382)) @mr-kelly
-- feat: APITable support to reset password ([#401](https://github.com/apitable/apitable/pull/401)) @mr-kelly
-
-### Bug fixes
-
-- fix: oss host env variable value ([#346](https://github.com/apitable/apitable/pull/346)) @ChambersChan
-- fix: reset password page @laboonly
-- fix: reset password page ([#385](https://github.com/apitable/apitable/pull/385)) @laboonly
-- fix: disable cdn resource ([#384](https://github.com/apitable/apitable/pull/384)) @wangkailang
-- fix: env control sensors.js ([#397](https://github.com/apitable/apitable/pull/397)) @wangkailang
-- fix: use sensors env ([#402](https://github.com/apitable/apitable/pull/402)) @wangkailang
-- fix: gitpod setup install error ([#404](https://github.com/apitable/apitable/pull/404)) @shawndenggh
-- fix: the formula of IS_ERROR is incorrectly calculated ([#427](https://github.com/apitable/apitable/pull/427)) @Sky-FE
-- fix: record menu subscription item displayed incorrectly ([#428](https://github.com/apitable/apitable/pull/428)) @Sky-FE
-- fix: formula WORKDAY_DIFF calculation error ([#435](https://github.com/apitable/apitable/pull/435)) @Sky-FE
-
-### What's more
-
-- chore(deps): bump @sideway/formula from 3.0.0 to 3.0.1 @dependabot[bot]
-- release: v0.18.0-alpha ([#345](https://github.com/apitable/apitable/pull/345)) @mr-kelly
-- refactor: merge forwarding about sokcet server ([#349](https://github.com/apitable/apitable/pull/349)) @ChambersChan
-- chore: add all-in-one dockerfile and image build ([#355](https://github.com/apitable/apitable/pull/355)) @networkhermit
-- chore: integrate semver to image build ([#358](https://github.com/apitable/apitable/pull/358)) @networkhermit
-- unit module unit test ([#335](https://github.com/apitable/apitable/pull/335)) @wuyitaoBoomboommm
-- chore(deps): bump @sideway/formula from 3.0.0 to 3.0.1 ([#340](https://github.com/apitable/apitable/pull/340)) @JaneSu
-- chore: make LOGGER_MAX_HISTORY_DAYS an env variable and 7 by default ([#370](https://github.com/apitable/apitable/pull/370)) @yort-feng
-- sync: hosted cloud ([#373](https://github.com/apitable/apitable/pull/373)) @mr-kelly
-- docs: add all-in-one installation method ([#374](https://github.com/apitable/apitable/pull/374)) @networkhermit
-- chore: set room server log file keep days to 7 by default ([#375](https://github.com/apitable/apitable/pull/375)) @yort-feng
-- chore: modify mail configuration ([#418](https://github.com/apitable/apitable/pull/418)) @ChambersChan
-- chore: replace share node tree ([#420](https://github.com/apitable/apitable/pull/420)) @ChambersChan
-- chore: keep the default settings the same with devenv ([#426](https://github.com/apitable/apitable/pull/426)) @yort-feng
-- docs: improve zh-HK translation ([#395](https://github.com/apitable/apitable/pull/395)) @KelvinAhKe
-
-## [v0.18.0-alpha](https://github.com/apitable/apitable/releases/tag/v0.18.0-alpha) (2023-02-09)
-
-### Bug fixes
-
-- fix: error logo in email templates @xukecheng
-- fix: wrong left padding of views ([#278](https://github.com/apitable/apitable/pull/278)) @Sky-FE
-- fix: correct space apply mail link ([#277](https://github.com/apitable/apitable/pull/277)) @ChambersChan
-- fix: the gantt view is exported as a png image misplaced ([#281](https://github.com/apitable/apitable/pull/281)) @Sky-FE
-- fix: error logo in email templates ([#276](https://github.com/apitable/apitable/pull/276)) @xukecheng
-- fix: assets url ([#309](https://github.com/apitable/apitable/pull/309)) @Pengap
-- fix: formula parser doesn't recognize single negation expresison ([#192](https://github.com/apitable/apitable/pull/192)) @arucil
-- fix: space list sort issue ([#312](https://github.com/apitable/apitable/pull/312)) @ChambersChan
-- fix: path get actions miss id and type id ([#317](https://github.com/apitable/apitable/pull/317)) @wuyitaoBoomboommm
-- fix: active robot error validation ([#318](https://github.com/apitable/apitable/pull/318)) @wuyitaoBoomboommm
-- fix: start web-server cause room-server compile error ([#324](https://github.com/apitable/apitable/pull/324)) @arucil
-- fix: email contact us url ([#330](https://github.com/apitable/apitable/pull/330)) @xukecheng
-- fix: missing .proto files ([#329](https://github.com/apitable/apitable/pull/329)) @yort-feng
-- fix: there are wrong css for button in email @xukecheng
-- fix: there are wrong css for button in email ([#333](https://github.com/apitable/apitable/pull/333)) @xukecheng
-
-### What's more
-
-- perf: help menu auto layout ([#260](https://github.com/apitable/apitable/pull/260)) @Sky-FE
-- Fix: fix readme typo ([#262](https://github.com/apitable/apitable/pull/262)) @x1ah
-- docs: improve zh-CN translations ([#265](https://github.com/apitable/apitable/pull/265)) @alexzhang1030
-- chore: contributing in readme ([#284](https://github.com/apitable/apitable/pull/284)) @mr-kelly
-- Update README.md ([#302](https://github.com/apitable/apitable/pull/302)) @garyli27
-- style: upgrade jsx-ast-utils to support Optional Chaining ([#311](https://github.com/apitable/apitable/pull/311)) @yort-feng
-- sync: hosted cloud ([#316](https://github.com/apitable/apitable/pull/316)) @mr-kelly
-- chore: replace the sql statement with ORM api. ([#273](https://github.com/apitable/apitable/pull/273)) @wuyitaoBoomboommm
-- chore: root README_ZH.md ([#287](https://github.com/apitable/apitable/pull/287)) @mr-kelly
-- chore: replace contact url @xukecheng
-- chore: upgrade email copy right @xukecheng
-- docs: add better uptime badge and clarify installation requirement ([#328](https://github.com/apitable/apitable/pull/328)) @networkhermit
-- chore: replace logo to png @xukecheng
-- test: mirror service unit test ([#280](https://github.com/apitable/apitable/pull/280)) @yort-feng
-- sync: hosted cloud ([#339](https://github.com/apitable/apitable/pull/339)) @Pengap
-- docs: super link for architecture overview ([#341](https://github.com/apitable/apitable/pull/341)) @yort-feng
-- docs: README for APITable.com cloud version ([#342](https://github.com/apitable/apitable/pull/342)) @mr-kelly
-
-## [v0.17.0-rc](https://github.com/apitable/apitable/releases/tag/v0.17.0-rc) (2023-01-23)
-
-### Bug fixes
-
-- fix: make minor semver conflict @mr-kelly
-- fix: replace wrong email logo @xukecheng
-- fix: wrong variable @xukecheng
-- fix: replace wrong email templates ([#190](https://github.com/apitable/apitable/pull/190)) @xukecheng
-- fix: unable to operate members and teams ([#214](https://github.com/apitable/apitable/pull/214)) @MrWangQAQ
-- fix: the default value of the percent field cannot be reset ([#215](https://github.com/apitable/apitable/pull/215)) @alolonghun
-- fix: fusion api param validation decorators & qr code download failed & unable to operate members and teams ([#217](https://github.com/apitable/apitable/pull/217)) @mr-kelly
-- fix: the page crashes when the option field configures the color ([#219](https://github.com/apitable/apitable/pull/219)) @alolonghun
-- fix: expand record comment emoji reply ([#218](https://github.com/apitable/apitable/pull/218)) @MrWangQAQ
-- fix: color match ([#220](https://github.com/apitable/apitable/pull/220)) @alolonghun
-- fix: sync hosted version & fusion api param validation error & login page QR code cannot be displayed & wrong email folder name ([#223](https://github.com/apitable/apitable/pull/223)) @mr-kelly
-
-### What's more
-
-- Merge branch 'develop' into release/0.17.0 @mr-kelly
-- chore: init changelog.md @mr-kelly
-- Chore/merge new feature ([#203](https://github.com/apitable/apitable/pull/203)) @laboonly
-- docs: change log @laboonly
-- docs: change log ([#204](https://github.com/apitable/apitable/pull/204)) @laboonly
-- Merge branch 'develop' into fix/wrong-email-logo @xukecheng
-- chore: disable eslint validate of super linter ([#211](https://github.com/apitable/apitable/pull/211)) @yort-feng
-- test: user module unit test ([#191](https://github.com/apitable/apitable/pull/191)) @yort-feng
-- chore: README show latest release tag ([#209](https://github.com/apitable/apitable/pull/209)) @mr-kelly
-- l10n: translation init ([#137](https://github.com/apitable/apitable/pull/137)) @mr-kelly
-
-## [v0.17.0-beta](https://github.com/apitable/apitable/releases/tag/v0.17.0-beta) (2023-01-16)
-
-### Features and enhancements
-
-- feat: hosted version update, event manager refactor, mobile date-picker i18n, new env config ([#148](https://github.com/apitable/apitable/pull/148)) @mr-kelly
-- feat: github issues templates of docs and question ([#175](https://github.com/apitable/apitable/pull/175)) @mr-kelly
-- feat: clear a bad smell code ([#179](https://github.com/apitable/apitable/pull/179)) @zhou-yg
-- feat: enable super-lint ([#194](https://github.com/apitable/apitable/pull/194)) @mr-kelly
-- feat: timezone environment variables support ([#187](https://github.com/apitable/apitable/pull/187)) @shawndenggh
-
-### Bug fixes
-
-- fix: stop satackey/action-docker-layer-caching for building success ([#149](https://github.com/apitable/apitable/pull/149)) @mr-kelly
-- fix: share crash @wangkailang
-- fix: share crash ([#151](https://github.com/apitable/apitable/pull/151)) @JaneSu
-- fix: web-server local start axios base url ([#155](https://github.com/apitable/apitable/pull/155)) @wangkailang
-- fix: copy cell menu item is hidden in gallery and kanban view ([#158](https://github.com/apitable/apitable/pull/158)) @alolonghun
-- fix: import-double-quotes-to-single-quotes ([#163](https://github.com/apitable/apitable/pull/163)) @wuyitaoBoomboommm
-- fix: eslint error and ass scripts ([#164](https://github.com/apitable/apitable/pull/164)) @wangkailang
-- fix: template usage crash @wangkailang
-- fix: add pre-action releaseLocks before init-db run ([#165](https://github.com/apitable/apitable/pull/165)) @shawndenggh
-- fix: template usage crash ([#166](https://github.com/apitable/apitable/pull/166)) @JaneSu
-- fix: the content is missing after the mobile form is submitted ([#168](https://github.com/apitable/apitable/pull/168)) @alolonghun
-- fix: add main widget message listener ([#169](https://github.com/apitable/apitable/pull/169)) @MrWangQAQ
-- fix: avtar color is covered when edit user nickName @LiuZijingBron
-- fix: avtar color is covered when edit user nickName ([#170](https://github.com/apitable/apitable/pull/170)) @LiuZijingBron
-- fix: replace billing field ([#172](https://github.com/apitable/apitable/pull/172)) @shawndenggh
-- fix: eslint error ([#182](https://github.com/apitable/apitable/pull/182)) @wangkailang
-- fix: modify spring mail config ([#186](https://github.com/apitable/apitable/pull/186)) @LiuZijingBron
-- fix: register user default avatar may be null @LiuZijingBron
-- fix: register user default avatar may be null ([#189](https://github.com/apitable/apitable/pull/189)) @LiuZijingBron
-- fix: eslint fix & super-linter ready ([#181](https://github.com/apitable/apitable/pull/181)) @mr-kelly
-- fix: register user default avatar may be null & avatar renderer ([#193](https://github.com/apitable/apitable/pull/193)) @mr-kelly
-- fix: super-linter jscpg ignore test files ([#202](https://github.com/apitable/apitable/pull/202)) @mr-kelly
-
-### What's more
-
-- release: v0.17.0-alpha ([#146](https://github.com/apitable/apitable/pull/146)) @mr-kelly
-- chore: fix devenv & integrate appdata ([#154](https://github.com/apitable/apitable/pull/154)) @networkhermit
-- refactor: split database module to submodules ([#152](https://github.com/apitable/apitable/pull/152)) @yort-feng
-- chore: performance profiling tools ([#159](https://github.com/apitable/apitable/pull/159)) @arucil
-- Merge branch 'develop' into fix/template-usage-crash @JaneSu
-- Merge branch 'develop' into fix/template-usage-crash @wangkailang
-- chore: hosted sync @mr-kelly
-- chore: optimise email verify html ([#184](https://github.com/apitable/apitable/pull/184)) @xukecheng
-- chore(deps): bump class-validator from 0.12.2 to 0.14.0 ([#183](https://github.com/apitable/apitable/pull/183)) @dependabot[bot]
-- chore(deps): bump json5 from 1.0.1 to 1.0.2 ([#132](https://github.com/apitable/apitable/pull/132)) @dependabot[bot]
-- test: developer module unit test ([#171](https://github.com/apitable/apitable/pull/171)) @yort-feng
-
-## [v0.17.0-alpha](https://github.com/vikadata/vikadata/releases/tag/v0.17.0-alpha) (2023-01-05)
-
-First release of APITable.
+- [`47ceb5bc`](https://github.com/staart/api/commit/47ceb5bc)  Add support for login links
+- [`161b2643`](https://github.com/staart/api/commit/161b2643)  Add endpoint for password details
+- [`ef5654db`](https://github.com/staart/api/commit/ef5654db)  Ship Casbin-powered permissions (fixed #337)
+(Issues: [`#337`](https://github.com/staart/api/issues/337))- [`872559c6`](https://github.com/staart/api/commit/872559c6)  Add user access token scopes endpoint
+- [`5225c309`](https://github.com/staart/api/commit/5225c309)  Add API scopes endpoint
+- [`8de94323`](https://github.com/staart/api/commit/8de94323)  Add gender prediction API
+- [`e9baebd9`](https://github.com/staart/api/commit/e9baebd9)  Auto-fill country, timezone
+- [`cbb355ee`](https://github.com/staart/api/commit/cbb355ee)  Add Sentry
+- [`ff44de69`](https://github.com/staart/api/commit/ff44de69)  Add support for disabling billing
+- [`b248d84c`](https://github.com/staart/api/commit/b248d84c)  Add new user registrations check
+- [`54774f25`](https://github.com/staart/api/commit/54774f25)  Add newUserRegistrationDomains check
+- [`d6beaf83`](https://github.com/staart/api/commit/d6beaf83)  Add Prisma CRUD endpoints
+- [`b1074976`](https://github.com/staart/api/commit/b1074976)  Add pipes for optional int, order by
+- [`6b732e2a`](https://github.com/staart/api/commit/6b732e2a)  Add support for cursor
+- [`6d43fcfe`](https://github.com/staart/api/commit/6d43fcfe)  Use DTO in PATCH method
+- [`c9f03df3`](https://github.com/staart/api/commit/c9f03df3)  Add auth module with register
+- [`c9291532`](https://github.com/staart/api/commit/c9291532)  Add registration with email conflict check
+- [`b311e5af`](https://github.com/staart/api/commit/b311e5af)  Add common configuration
+- [`7b6902d8`](https://github.com/staart/api/commit/7b6902d8)  Render and send emails
+- [`9fe994d3`](https://github.com/staart/api/commit/9fe994d3)  Add HTML email layout
+- [`a7979c22`](https://github.com/staart/api/commit/a7979c22)  Add resend email verification endpoint
+- [`3b4a4680`](https://github.com/staart/api/commit/3b4a4680)  Add authentication
+- [`5abd4987`](https://github.com/staart/api/commit/5abd4987)  Add refresh token endpoint
+- [`d1e9e252`](https://github.com/staart/api/commit/d1e9e252)  Add scope authorization in Guard
+- [`93d82e1c`](https://github.com/staart/api/commit/93d82e1c)  Expose data by removing secrets
+- [`0e7c8b20`](https://github.com/staart/api/commit/0e7c8b20)  Add session endpoints
+- [`8233d52a`](https://github.com/staart/api/commit/8233d52a)  Add endpoints for access tokens
+- [`276c95a3`](https://github.com/staart/api/commit/276c95a3)  Add endpoints for user memberships
+- [`f7082e0f`](https://github.com/staart/api/commit/f7082e0f)  Add emails module
+- [`818ad11a`](https://github.com/staart/api/commit/818ad11a)  Add groups endpoints
+- [`26c0c0ef`](https://github.com/staart/api/commit/26c0c0ef)  Add group membership controller
+- [`a642b7ea`](https://github.com/staart/api/commit/a642b7ea)  Support creating groups, memberships
+- [`183b6749`](https://github.com/staart/api/commit/183b6749)  Add Pwned module
+- [`21a7cb4f`](https://github.com/staart/api/commit/21a7cb4f)  Add support for password change, refactor auth
+- [`d99de49c`](https://github.com/staart/api/commit/d99de49c)  Add scheduler to delete sessions
+- [`b3ec3fc4`](https://github.com/staart/api/commit/b3ec3fc4)  Add helmet for security
+- [`754495e1`](https://github.com/staart/api/commit/754495e1)  Add OpenAPI docs
+- [`e3628898`](https://github.com/staart/api/commit/e3628898)  Add tokens module, 2FA
+- [`9aaee67a`](https://github.com/staart/api/commit/9aaee67a)  Add logout endpoint
+- [`cee3a55c`](https://github.com/staart/api/commit/cee3a55c)  Add 2FA enable/disable endpoints
+- [`f8f47f29`](https://github.com/staart/api/commit/f8f47f29)  Add password forgot/reset
+- [`339a29da`](https://github.com/staart/api/commit/339a29da)  Add verify emails endpoint
+- [`e4e78e1d`](https://github.com/staart/api/commit/e4e78e1d)  Add approved subnets endpoints
+- [`b3f60938`](https://github.com/staart/api/commit/b3f60938)  Add geolocation service
+- [`2c892e83`](https://github.com/staart/api/commit/2c892e83)  Add approve subnet endpoint
+- [`0f219cdc`](https://github.com/staart/api/commit/0f219cdc)  Add support for MFA when logging in
+- [`e314375b`](https://github.com/staart/api/commit/e314375b)  Login with email token endpoints
+- [`8c7f926b`](https://github.com/staart/api/commit/8c7f926b)  Send membership welcome email
+- [`9857fbc5`](https://github.com/staart/api/commit/9857fbc5)  Support logging in backup code
+- [`f1337775`](https://github.com/staart/api/commit/f1337775)  Add group API keys module
+- [`62ee163d`](https://github.com/staart/api/commit/62ee163d)  Add basic Stripe module
+- [`0dc4b422`](https://github.com/staart/api/commit/0dc4b422)  Add Stripe invoices endpoints
+- [`ec9ec37b`](https://github.com/staart/api/commit/ec9ec37b)  Add Twilio module
+- [`ce710401`](https://github.com/staart/api/commit/ce710401)  Add SMS MFA OTP
+- [`b147b685`](https://github.com/staart/api/commit/b147b685)  Add email MFA
+- [`f39eddac`](https://github.com/staart/api/commit/f39eddac)  Add Stripe sources endpoints
+- [`74df85c2`](https://github.com/staart/api/commit/74df85c2)  Add API key scopes
+- [`2a8170f1`](https://github.com/staart/api/commit/2a8170f1)  Add domain module
+- [`59a4a7cb`](https://github.com/staart/api/commit/59a4a7cb)  Add DNS module
+- [`e160f8ef`](https://github.com/staart/api/commit/e160f8ef)  Add HTML domain verification
+- [`9da99653`](https://github.com/staart/api/commit/9da99653)  Add subscription endpoints
+- [`7506cb20`](https://github.com/staart/api/commit/7506cb20)  Handle Stripe webhook event
+- [`049e3eb0`](https://github.com/staart/api/commit/049e3eb0)  Add audit logs module
+- [`36bda486`](https://github.com/staart/api/commit/36bda486)  Create audit log
+- [`47869cdd`](https://github.com/staart/api/commit/47869cdd)  Add webhooks module
+- [`53ebb4a8`](https://github.com/staart/api/commit/53ebb4a8)  Trigger webhooks on audit log
+- [`8a5c0152`](https://github.com/staart/api/commit/8a5c0152)  Implement LRU for API keys
+- [`bf9976d8`](https://github.com/staart/api/commit/bf9976d8)  Add API key users controllers
+- [`7c35bd21`](https://github.com/staart/api/commit/7c35bd21)  Serve static files
+- [`cbc8034c`](https://github.com/staart/api/commit/cbc8034c)  Add support for merging users (fixed #950)
+(Issues: [`#950`](https://github.com/staart/api/issues/950))- [`727b6112`](https://github.com/staart/api/commit/727b6112)  Add SMS-based MFA method
+
+### ♻️ Updates
+
+- [`3dadf22f`](https://github.com/staart/api/commit/3dadf22f)  Change snake to camel case
+- [`e7ab0eb7`](https://github.com/staart/api/commit/e7ab0eb7)  Change organization to group
+- [`5cd080ea`](https://github.com/staart/api/commit/5cd080ea)  Update organization group
+- [`9691e797`](https://github.com/staart/api/commit/9691e797)  Update user service references
+- [`dd86fb40`](https://github.com/staart/api/commit/dd86fb40)  Update org
+- [`efbc78f9`](https://github.com/staart/api/commit/efbc78f9)  Organize imports, update user rest
+- [`cabd9e13`](https://github.com/staart/api/commit/cabd9e13)  Make login password optional
+- [`8b2e8e12`](https://github.com/staart/api/commit/8b2e8e12)  Use object param for mail
+- [`6b09c3e3`](https://github.com/staart/api/commit/6b09c3e3)  Allow all attributes in mail
+- [`4dc4bf69`](https://github.com/staart/api/commit/4dc4bf69)  Update helpers
+- [`91ac3cc6`](https://github.com/staart/api/commit/91ac3cc6)  Use TWT instead of username
+- [`3f3ccf14`](https://github.com/staart/api/commit/3f3ccf14)  Use number for ID, not string
+- [`8cae2670`](https://github.com/staart/api/commit/8cae2670)  Remove fallback from TWT
+- [`0efe1c8f`](https://github.com/staart/api/commit/0efe1c8f)  Use number instead of string in ID
+- [`1a7a1181`](https://github.com/staart/api/commit/1a7a1181)  Use number IDs in controllers
+- [`170ba999`](https://github.com/staart/api/commit/170ba999)  Add login link token to email
+- [`5edf233a`](https://github.com/staart/api/commit/5edf233a)  Use number ID for user, validate number
+- [`a3535905`](https://github.com/staart/api/commit/a3535905)  Use number for org ID
+- [`2c201062`](https://github.com/staart/api/commit/2c201062)  Use TWT for IDs
+- [`e70fa98c`](https://github.com/staart/api/commit/e70fa98c)  Use TWT of length 10
+- [`8327891f`](https://github.com/staart/api/commit/8327891f)  Support all id-like keys with TWT
+- [`bba4a39a`](https://github.com/staart/api/commit/bba4a39a)  Allow empty passwords
+- [`ae0022b9`](https://github.com/staart/api/commit/ae0022b9)  Add decode TWT function
+- [`5a6fa2e7`](https://github.com/staart/api/commit/5a6fa2e7)  Use string for ID validation
+- [`08a2c53a`](https://github.com/staart/api/commit/08a2c53a)  Use Joi.number() for ID
+- [`8c90ee64`](https://github.com/staart/api/commit/8c90ee64)  use take in rest
+- [`d598a1f1`](https://github.com/staart/api/commit/d598a1f1)  Use any for res.locals
+- [`9558c36d`](https://github.com/staart/api/commit/9558c36d)  Use take in Prisma
+- [`905e0181`](https://github.com/staart/api/commit/905e0181)  Use new authorization helper in user.ts
+- [`9301944a`](https://github.com/staart/api/commit/9301944a)  Add Casbin admin scopes
+- [`02799be5`](https://github.com/staart/api/commit/02799be5)  Use new authorization can in group, auth
+- [`28b0b142`](https://github.com/staart/api/commit/28b0b142)  Change params to subject, action, object
+- [`cd1fb73e`](https://github.com/staart/api/commit/cd1fb73e)  Remove expiry from access tokens
+- [`fefcdba2`](https://github.com/staart/api/commit/fefcdba2)  Move access token scopes to security
+- [`2a75733f`](https://github.com/staart/api/commit/2a75733f)  Use constants in policy
+- [`13490a14`](https://github.com/staart/api/commit/13490a14)  Update delete casbin policies
+- [`3fac6c93`](https://github.com/staart/api/commit/3fac6c93)  Remove username validation
+- [`63577fad`](https://github.com/staart/api/commit/63577fad)  Change API key, access token length to 32
+- [`629b7aac`](https://github.com/staart/api/commit/629b7aac)  Update group ID as attribute
+- [`1e040a76`](https://github.com/staart/api/commit/1e040a76)  Change stripeCustomerId to stripeCustomer
+- [`9b760e1d`](https://github.com/staart/api/commit/9b760e1d)  Skip test for Stripe
+- [`cd433d17`](https://github.com/staart/api/commit/cd433d17)  Make tracking optional
+- [`d83146ce`](https://github.com/staart/api/commit/d83146ce)  Check tracking config before ES
+- [`0f300e3b`](https://github.com/staart/api/commit/0f300e3b)  Move some config from file
+- [`733f923d`](https://github.com/staart/api/commit/733f923d)  Use config helpr instead of imports
+- [`b4c6176d`](https://github.com/staart/api/commit/b4c6176d)  Use email config with Nodemailer interface
+- [`34eb080f`](https://github.com/staart/api/commit/34eb080f)  Use session UUID as refresh token
+- [`527ab9a3`](https://github.com/staart/api/commit/527ab9a3)  Get user ID, scopes in JWT strategy
+- [`3e259b43`](https://github.com/staart/api/commit/3e259b43)  Use access toke ngenerator abstraction
+- [`6a31e886`](https://github.com/staart/api/commit/6a31e886)  Use local scope guards (https://stackoverflow.com/a/50801832/1656944)
+- [`d30ce2fa`](https://github.com/staart/api/commit/d30ce2fa)  Use session ID as param
+- [`959dc7b8`](https://github.com/staart/api/commit/959dc7b8)  Use global guards, @Public decorator
+- [`be84f02f`](https://github.com/staart/api/commit/be84f02f)  Use new scope structure
+- [`915c5ae6`](https://github.com/staart/api/commit/915c5ae6)  Send email not verified exception message
+- [`b7cf9f39`](https://github.com/staart/api/commit/b7cf9f39)  Hash passwords, ensure uncompromised
+- [`62d6ae04`](https://github.com/staart/api/commit/62d6ae04)  Use prisma directly not authService
+- [`f7697ebd`](https://github.com/staart/api/commit/f7697ebd)  Use safe email helper
+- [`75fc733f`](https://github.com/staart/api/commit/75fc733f)  Lowercase, remove plus from email
+- [`e69cc370`](https://github.com/staart/api/commit/e69cc370)  Use import instead of import type
+- [`750eb880`](https://github.com/staart/api/commit/750eb880)  Change 2fa to totp
+- [`0857ae77`](https://github.com/staart/api/commit/0857ae77)  Use auth module-scoped constants
+- [`3fb490fa`](https://github.com/staart/api/commit/3fb490fa)  Change approved location -&gt; approved subnet
+- [`fe973961`](https://github.com/staart/api/commit/fe973961)  Hash approved subnets
+- [`d0bb693c`](https://github.com/staart/api/commit/d0bb693c)  Add cache to geolocation
+- [`d9899226`](https://github.com/staart/api/commit/d9899226)  Store geolocation in approved subnets
+- [`24afea03`](https://github.com/staart/api/commit/24afea03)  Approve new subnets in auth
+- [`63bac411`](https://github.com/staart/api/commit/63bac411)  Allow adding team members without name
+- [`ffd8fdf8`](https://github.com/staart/api/commit/ffd8fdf8)  Generate/regenerate backup codes in 2FA
+- [`e3349735`](https://github.com/staart/api/commit/e3349735)  Add email verification template
+- [`d4c10d29`](https://github.com/staart/api/commit/d4c10d29)  Add create/delete/replace customer endpoint
+- [`560c03ac`](https://github.com/staart/api/commit/560c03ac)  Allow uppercase sorting
+- [`6c2897da`](https://github.com/staart/api/commit/6c2897da)  Use relative import paths
+- [`170bc5de`](https://github.com/staart/api/commit/170bc5de)  Use .env data in configuration
+- [`20d8cebb`](https://github.com/staart/api/commit/20d8cebb)  Change twoFactorEnabled -&gt; twoFactorMethod
+- [`b5d94ce7`](https://github.com/staart/api/commit/b5d94ce7)  Use TokensService for UUID
+- [`b490af16`](https://github.com/staart/api/commit/b490af16)  Update scopes in controllers
+- [`3253de5b`](https://github.com/staart/api/commit/3253de5b)  Normalize domain URL
+- [`c401a330`](https://github.com/staart/api/commit/c401a330)  Normalize +, . in emails
+- [`c0b928a8`](https://github.com/staart/api/commit/c0b928a8)  Use raw/JSON middleware
+- [`c797457b`](https://github.com/staart/api/commit/c797457b)  Change auth controller login routes
+- [`aa80db1b`](https://github.com/staart/api/commit/aa80db1b)  Use constant for login token sub
+- [`a39009b7`](https://github.com/staart/api/commit/a39009b7)  Add membership module to app
+- [`27066a69`](https://github.com/staart/api/commit/27066a69)  Add pretty profile pictures for domain, group, user
+- [`86a456d1`](https://github.com/staart/api/commit/86a456d1)  Add ID to auth token
+- [`43e85967`](https://github.com/staart/api/commit/43e85967)  Use Gravatar as user profile picture
+- [`5a1cb701`](https://github.com/staart/api/commit/5a1cb701)  Add audit log decorators on controller
+- [`74705d67`](https://github.com/staart/api/commit/74705d67)  Add webhook scopes to API key
+- [`6c546cfa`](https://github.com/staart/api/commit/6c546cfa)  Add webhook scopes endpoint
+- [`89af8027`](https://github.com/staart/api/commit/89af8027)  Add group/user methods in API kes
+- [`c84bccba`](https://github.com/staart/api/commit/c84bccba)  Add API key scopes for user
+- [`24f0d246`](https://github.com/staart/api/commit/24f0d246)  Only allow clean, secure scopes in API keys
+- [`b32c5af3`](https://github.com/staart/api/commit/b32c5af3)  Use custom JWT strategy
+- [`49ed4a47`](https://github.com/staart/api/commit/49ed4a47)  Support referrer restrictions in API keys
+- [`e24b26d0`](https://github.com/staart/api/commit/e24b26d0)  Check IP address restrictions in API keys
+- [`269d1f17`](https://github.com/staart/api/commit/269d1f17)  Rename jwt -&gt; staart in auth
+- [`500534bf`](https://github.com/staart/api/commit/500534bf)  Use user object in auth objects
+- [`149651c2`](https://github.com/staart/api/commit/149651c2)  Use service name in loggers
+- [`8ac6f7f3`](https://github.com/staart/api/commit/8ac6f7f3)  Send response time headers
+- [`8e248ffa`](https://github.com/staart/api/commit/8e248ffa)  Don&#x27;t use native errors
+- [`402ce140`](https://github.com/staart/api/commit/402ce140)  Don&#x27;t use HttpException
+- [`a7ee700f`](https://github.com/staart/api/commit/a7ee700f)  Use error constants
+- [`91aba2e3`](https://github.com/staart/api/commit/91aba2e3)  Add constants errors in pipes
+- [`d0e58468`](https://github.com/staart/api/commit/d0e58468)  Add descriptions for errors
+- [`52e5de85`](https://github.com/staart/api/commit/52e5de85)  Add global controller prefix
+
+### 🐛 Bug fixes
+
+- [`cf4a8fd7`](https://github.com/staart/api/commit/cf4a8fd7)  Wait for token to be generated
+- [`128d995b`](https://github.com/staart/api/commit/128d995b)  Use Tokens.LOGIN_LINK to verify JWT
+- [`661bf6d0`](https://github.com/staart/api/commit/661bf6d0)  Use string for userId in TWT
+- [`75fc64fc`](https://github.com/staart/api/commit/75fc64fc)  Use take instead of first
+- [`97b21181`](https://github.com/staart/api/commit/97b21181)  Use TWT in local to token
+- [`780e7d6b`](https://github.com/staart/api/commit/780e7d6b)  Use where with ID key
+- [`aea4d9f0`](https://github.com/staart/api/commit/aea4d9f0)  Use numbers not TWTs in controllers
+- [`b3f2f9bc`](https://github.com/staart/api/commit/b3f2f9bc)  Use string adapter for casbin model
+- [`294a5682`](https://github.com/staart/api/commit/294a5682)  Use integer IDs, not TWTs, in casbin policy
+- [`14f3182e`](https://github.com/staart/api/commit/14f3182e)  Change scopes type in access token, API key
+- [`17f07562`](https://github.com/staart/api/commit/17f07562)  Make sure user has a verified email
+- [`dc67971e`](https://github.com/staart/api/commit/dc67971e)  Only allow admin, member roles in teams
+- [`4d070cf1`](https://github.com/staart/api/commit/4d070cf1)  Create memberships manually
+- [`27baa6ec`](https://github.com/staart/api/commit/27baa6ec)  Allow prefers email ID
+- [`3a0f0c4d`](https://github.com/staart/api/commit/3a0f0c4d)  Change profilePicture to Url suffix
+- [`87c9b13e`](https://github.com/staart/api/commit/87c9b13e)  Fix stripe customer ID key
+- [`d3c8c255`](https://github.com/staart/api/commit/d3c8c255)  Change imports to config
+- [`5e6d6918`](https://github.com/staart/api/commit/5e6d6918)  Make keys in DTO optional
+- [`f27c6b9d`](https://github.com/staart/api/commit/f27c6b9d)  Ensure result exists before accessing user
+- [`a166eaa1`](https://github.com/staart/api/commit/a166eaa1)  Fix use authentication in class
+- [`9cdea097`](https://github.com/staart/api/commit/9cdea097)  Specify IP address when adding member, add module
+- [`97096b3f`](https://github.com/staart/api/commit/97096b3f)  Use object payload for JWT
+- [`99f9058d`](https://github.com/staart/api/commit/99f9058d)  Fix registration, location
+- [`10a4b3c0`](https://github.com/staart/api/commit/10a4b3c0)  Fix password hash in Pwned
+- [`087701ea`](https://github.com/staart/api/commit/087701ea)  Use module imports, not service
+- [`fb46eeb4`](https://github.com/staart/api/commit/fb46eeb4)  Import StripeModule
+- [`f883155b`](https://github.com/staart/api/commit/f883155b)  Move scopes endpoint to top
+- [`e2541a16`](https://github.com/staart/api/commit/e2541a16)  Add ConfigModule to ApiKeysModule
+
+### 🔒 Security issues
+
+- [`e1d3e0cb`](https://github.com/staart/api/commit/e1d3e0cb)  Add AuthGuard in user endpoints
+- [`653ccfc4`](https://github.com/staart/api/commit/653ccfc4)  Add scopes and guards on user routes
+
+### ⬆️ Dependency updates
+
+- [`5693784b`](https://github.com/staart/api/commit/5693784b)  Update @staart/redis
+- [`c38e0464`](https://github.com/staart/api/commit/c38e0464)  Update @staart/redis to v2.3.0
+- [`b9e775fd`](https://github.com/staart/api/commit/b9e775fd)  Update @staart/scripts to v1.17.0
+- [`713dc5af`](https://github.com/staart/api/commit/713dc5af)  Update @staart/payments to v4.0.0
+- [`59f2ec6b`](https://github.com/staart/api/commit/59f2ec6b)  Update @prisma to v2.4.1
+- [`6e121dc5`](https://github.com/staart/api/commit/6e121dc5)  Update twt to v1.2.0
+- [`71f81595`](https://github.com/staart/api/commit/71f81595)  Update cosmic to v1.0.1
+- [`517fd0d1`](https://github.com/staart/api/commit/517fd0d1)  Update @staart/scripts to v1.18.0
+- [`9bf7fcb5`](https://github.com/staart/api/commit/9bf7fcb5)  Update staart/scripts to v1.18.1
+- [`51c8f8e8`](https://github.com/staart/api/commit/51c8f8e8)  Update @staart/elasticsearch to v2.2.4
+- [`0edb1ad5`](https://github.com/staart/api/commit/0edb1ad5)  Update @staart/scripts to v1.18.2
+- [`114e200d`](https://github.com/staart/api/commit/114e200d)  Update @sentry/node, @staart/scripts
+- [`34242e21`](https://github.com/staart/api/commit/34242e21)  Update update-template to v1.1.2
+- [`1262a0ff`](https://github.com/staart/api/commit/1262a0ff)  Update all dependencies
+- [`5f48cf67`](https://github.com/staart/api/commit/5f48cf67)  Update all dependencies
+
+### 💥 Breaking changes
+
+- [`ec11d6f2`](https://github.com/staart/api/commit/ec11d6f2)  Add v3

@@ -1,39 +1,14 @@
-node_modules
-**/node_modules
-dist
-scripts
-packages/datasheet/web_build
-
-# All secrets
-**/.env.local
-**/.env.development
-**/.env.*.local
-
-# Docker related
-.dockerignore
-Dockerfile
-Dockerfile.*
-docker-compose.*.yml
-docker-compose.yml
-
-
-# By default all git files
 .git
-.gitignore
+Dockerfile
+CHANGELOG.md
+Procfile
+README.md
+docs
+http
+jest.config.js
+.eslintrc.js
 .github
-
-# Log files
-logs
-.logs
-*.log
-
-# Temp files
-tmp
-*.tmp
-
-# IDE related
-.idea
-.vscode
-
-# other
-.DS_Store
+.gitignore
+.prettierrc
+Dockerrun.aws.json.tpl
+Dockerrun.aws.json
